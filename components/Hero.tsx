@@ -13,7 +13,7 @@ function Hero() {
           <p> Do you like it too 😍 ?</p>
         </div>
         <div className='flex border-red-700 xl:w-[500px] border items-center justify-start relative mt-[2px]'>
-          <div className="w-[140px] px-[3px] py-[10px] bg-zinc-950 text-white text-sm rounded-[5px] mt-7 justify-center items-center inline-flex">
+          <div className="w-[148px] md:w-[145px] px-[4px] py-[10px] bg-zinc-950 text-white text-sm rounded-[10px] mt-7 justify-center items-center inline-flex">
               Start course now
               <MdOutlineKeyboardArrowRight className='ml-2 mt-1' size='20'/>
           </div>

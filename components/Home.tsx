@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
+import SearchCourse from "./SearchCourse";
 
 function Home() {
   return (
@@ -8,6 +9,7 @@ function Home() {
       <div className="border border-black mt-5 py-5">
         <Navbar />
         <Hero />
+        <SearchCourse />
       </div>
       <div className='absolute top-[450px] left-[27px] hidden xl:flex'>
         <img src='icons/dotted-arrow.svg' width='60'/>
