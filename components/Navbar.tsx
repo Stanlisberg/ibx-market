@@ -8,8 +8,8 @@ function Navbar() {
       <nav className="flex justify-between items-center">
         <div className="flex justify-between items-center">
           <div className="flex">
-            <img src="icons/logo.svg" width="22" />
-            <h1 className="text-[20px] sm:text-2xl text-zinc-950 font-black uppercase ml-1">
+            <img src="icons/logo.svg" width="24" />
+            <h1 className="text-[20px] sm:text-[26px] text-zinc-950 font-black uppercase ml-1">
               ACADEMY
             </h1>
           </div>

@@ -43,3 +43,9 @@ body {
 
   
 }
+
+@media (width > 1035px) {
+  .hero {
+    flex-direction: row;
+  }
+}
