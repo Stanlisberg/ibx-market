@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import SearchCourse from "./SearchCourse";
+import NewCourses from "./NewCourses";
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
         <Navbar />
         <Hero />
         <SearchCourse />
+        <NewCourses />
       </div>
       <div className='absolute top-[450px] left-[27px] hidden xl:flex'>
         <img src='icons/dotted-arrow.svg' width='60'/>

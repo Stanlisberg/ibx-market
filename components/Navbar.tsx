@@ -13,8 +13,8 @@ function Navbar() {
               ACADEMY
             </h1>
           </div>
-          <ul className="text-sm font-medium hidden xl:contents text-zinc-950 text-opacity-50">
-            <li className="ml-10 ">Categories</li>
+          <ul className="text-sm font-medium hidden xl:contents text-zinc-950 text-opacity-50 cursor-pointer">
+            <li className="ml-10 px-3 py-[6px] hover:bg-neutral-100 hover:rounded-[10px]">Categories</li>
             <MdOutlineKeyboardArrowDown
               size="17"
               className="mt-[3px]"
@@ -26,9 +26,9 @@ function Navbar() {
                 className="absolute right-[10px]"
               />
             </span> */}
-            <li className="px-3">Teach</li>
-            <li className="px-3">Contact Us</li>
-            <li className="px-3">About Us</li>
+            <li className="px-3 py-[6px] hover:bg-neutral-100 hover:rounded-[10px] mx-[1px]">Teach</li>
+            <li className="px-3 py-[6px] hover:bg-neutral-100 hover:rounded-[10px] mx-[1px]">Contact Us</li>
+            <li className="px-3 py-[6px] hover:bg-neutral-100 hover:rounded-[10px] mx-[1px]">About Us</li>
           </ul>
         </div>
         <div className="flex items-center">
