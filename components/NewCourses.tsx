@@ -35,7 +35,7 @@ function NewCourses() {
             </li>
           </ul>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-10 w-[100%] text-zinc-950 font-medium capitalize text-sm">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-10 w-[100%] text-zinc-950 font-medium capitalize text-sm">
           <div className="border border-zinc-200 w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
             <img
               src="images/first.svg"
