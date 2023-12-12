@@ -108,7 +108,7 @@ function Instructors() {
             </div>
           </div>
         </div>
-        <div className="border border-black w-full h-[90vh] grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3 mt-[50px]">
+        <div className="border border-black px-2 min-h-[100vh] grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3 mt-[50px]">
           {/* <img src="icons/background.svg" width="900" className='w-full h-full object-cover'/> */}
           <div className=" px-[8px] pt-[8px] pb-[40px] bg-neutral-100 border border-zinc-50 rounded-xl w-full">
             <img src="images/instructor-one.svg" width="150" className='w-full'/>

@@ -7,7 +7,7 @@ function NewCourses() {
     <>
       <div>
         <div className="flex justify-between items-center mt-[15px]">
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center px-2">
             <GoDotFill size="5" color="purple" className="mt-[3px]" />{" "}
             <p className="text-zinc-950 text-[16px] font-semibold uppercase ml-[6px]">
               New Courses(Book)
