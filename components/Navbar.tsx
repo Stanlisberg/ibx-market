@@ -48,7 +48,7 @@ function Navbar() {
             <img
               src="icons/dash-image.png"
               width="33"
-              className="border border-black rounded-md"
+              className="rounded-md"
             />
             <span className="text-sm ml-2 flex md:grid items-center">
               <p className="text-zinc-950 text-[14px] leading-3 font-medium">

@@ -4,6 +4,7 @@ import Hero from "./Hero";
 import SearchCourse from "./SearchCourse";
 import NewCourses from "./NewCourses";
 import Instructors from "./Instructors";
+import YourCourses from "./YourCourses";
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
         <img src='icons/dotted-arrow.svg' width='60'/>
       </div>
       <Instructors />
+      <YourCourses />
     </div>
   );
 }
