@@ -3,7 +3,7 @@ import React from "react";
 function Newsletter() {
   return (
     <>
-      <div className="w-full border border-green-700 mt-[80px] pr-20 relative hidden xl:grid">
+      <div className="w-full border mt-[80px] pr-20 relative hidden xl:grid">
         <div className="absolute left-[84px] top-12 ">
           <h1 className="text-zinc-950 text-[26px] font-black capitalize leading-[50px]">
             Find out about the latest courses with the

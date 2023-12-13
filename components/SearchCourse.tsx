@@ -3,7 +3,7 @@ import React from "react";
 function SearchCourse() {
   return (
     <div className="w-full mx-auto">
-      <div className="w-[300px] sm:w-[500px] md:w-[600px] lg:w-[700px] text-center mx-auto border border-red-800">
+      <div className="w-[300px] sm:w-[500px] md:w-[600px] lg:w-[700px] text-center mx-auto">
         <p className="text-zinc-950 text-2xl font-black  capitalize leading-[40px]">
           Search among
           <span className="text-purple-400 text-2xl font-black  capitalize leading-[40px]">
@@ -32,8 +32,14 @@ function SearchCourse() {
             placeholder="Search Anything"
           />
         </div>
-        <div className="text-stone-700 text-opacity-75 text-sm font-medium capitalize ml-[10px] mt-[20px] md:mt-[0px]">Or view the following courses...</div>
-        <img src='icons/spring-arrow-green.svg'  width='90' className='md:mb-[70px] md:mt-0 mt-[10px]'/>
+        <div className="text-stone-700 text-opacity-75 text-sm font-medium capitalize ml-[10px] mt-[20px] md:mt-[0px]">
+          Or view the following courses...
+        </div>
+        <img
+          src="icons/spring-arrow-green.svg"
+          width="90"
+          className="md:mb-[70px] md:mt-0 mt-[10px]"
+        />
       </div>
     </div>
   );

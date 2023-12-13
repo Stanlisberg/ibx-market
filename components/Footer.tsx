@@ -3,7 +3,7 @@ import { GoDotFill } from "react-icons/go";
 
 function Footer() {
   return (
-    <div className="mt-[60px] xl:mt-[90px] sm:mx-[10px] md:mx-[10px] lg:mx-[10px] xl:mx-[80px] p-2 border border-green-700">
+    <div className="mt-[60px] xl:mt-[90px] sm:mx-[10px] md:mx-[10px] lg:mx-[10px] xl:mx-[80px] border border-red-600 p-2  bg-neutral-50 rounded-tl-[40px] rounded-tr-[40px]">
       <div className="justify-between items-center hidden xl:flex">
         <img src="images/footer-para.svg" width="940" />
         <div className="mr-7 text-center flex flex-col justify-center items-center">
@@ -26,7 +26,9 @@ function Footer() {
           </p>
         </div>
       </div>
-      <div className="mt-[30px] grid grid-cols-1 lg:grid-cols-12 gap-7 whitespace-nowrap border  border-orange-950 text-[12px]">
+
+      {/*---------Main Footer------------*/}
+      <div className="mt-[30px] grid grid-cols-1 lg:grid-cols-12 gap-7 whitespace-nowrap text-[12px]">
         <div className="lg:col-span-4 col-span-12">
           <div className="flex items-center">
             <GoDotFill size="5" color="purple" className="mt-[3px]" />{" "}
@@ -172,6 +174,10 @@ function Footer() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="flex justify-center items-center bg-black px-2 py-2">
+        <div>Privacy Policy | terms & conditions</div>
+        <div>all copyright 2022 reserved</div>
       </div>
     </div>
   );
