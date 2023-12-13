@@ -98,7 +98,7 @@ function YourCourses() {
                 </div>
                 <div className="flex justify-center items-center">
                   <img src="icons/cup.svg" width="16" />
-                  <p className="ml-[4px] text-[12px]">Average</p>
+                  <p className="ml-[4px] text-[12px]">Advance</p>
                 </div>
               </div>
               <div>
@@ -158,7 +158,7 @@ function YourCourses() {
                 </div>
                 <div className="flex justify-center items-center">
                   <img src="icons/cup.svg" width="16" />
-                  <p className="ml-[4px] text-[12px]">Average</p>
+                  <p className="ml-[4px] text-[12px]">Beginner</p>
                 </div>
               </div>
               <div>
@@ -218,7 +218,7 @@ function YourCourses() {
                 </div>
                 <div className="flex justify-center items-center">
                   <img src="icons/cup.svg" width="16" />
-                  <p className="ml-[4px] text-[12px]">Average</p>
+                  <p className="ml-[4px] text-[12px]">Beginner</p>
                 </div>
               </div>
               <div>
