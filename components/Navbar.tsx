@@ -1,8 +1,15 @@
+'use client'
+
 import React from "react";
+import { useState } from 'react'
 import { HiOutlineMenu } from "react-icons/hi";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
+import { FaTimes } from "react-icons/fa";
+import { GiHamburgerMenu } from "react-icons/gi";
+
 
 function Navbar() {
+  const [navIcon, setNavIcon] = useState(true);
   return (
     <>
       <nav className="flex justify-between items-center border-b border-zinc-100 py-5 px-[8px] sm:px-[10px] md:px-[10px] lg:px-[10px] xl:px-[80px]">
@@ -20,12 +27,6 @@ function Navbar() {
               className="mt-[3px]"
               color="grey"
             />
-            {/* <span>
-              <img
-                src="icons/arrow-down.svg"
-                className="absolute right-[10px]"
-              />
-            </span> */}
             <li className="px-3 py-[6px] hover:bg-neutral-100 hover:rounded-[10px] mx-[1px]">Teach</li>
             <li className="px-3 py-[6px] hover:bg-neutral-100 hover:rounded-[10px] mx-[1px]">Contact Us</li>
             <li className="px-3 py-[6px] hover:bg-neutral-100 hover:rounded-[10px] mx-[1px]">About Us</li>
@@ -67,7 +68,60 @@ function Navbar() {
             <img src="icons/bell.svg" width="15" />
           </div>
         </div>
-        <HiOutlineMenu size="32" className="md:hidden mt-1" color='#9E5CF2'/>
+        <div className="md:hidden mt-1 block cursor-pointer z-[10]">
+            {navIcon === true ? (
+              <GiHamburgerMenu
+                size="32"
+                color="#9E5CF2"
+                onClick={() => setNavIcon(!navIcon)}
+              />
+            ) : (
+              <FaTimes
+                size="32"
+                color="#9E5CF2"
+                onClick={() => setNavIcon(!navIcon)}
+                className='z-100'
+              />
+            )}
+          </div>
+        <div
+          className={
+            navIcon === false
+            ? " fixed overflow-y-hidden md:hidden flex flex-col ease-in duration-700 top-[65px] left-0 w-full h-full px-4 py-7 bg-purple-500 z-10 opacity-[0.9]"
+            : "  fixed top-17 h-full left-[-100%] ease-in duration-700"
+        
+          }
+        >
+          <ul className="w-full p-4 font-medium text-[18px]">
+            <li
+              className="border-b border-black py-6 cursor-pointer text-black"
+              onClick={() => setNavIcon(!navIcon)}
+            >
+              Categories
+            </li>
+
+            <li
+              className='border-b border-black py-6 cursor-pointer text-black'
+              onClick={() => setNavIcon(!navIcon)}
+            >
+              Teach
+            </li>
+
+            <li
+              className="border-b border-black py-6 cursor-pointer  text-black"
+              onClick={() => setNavIcon(!navIcon)}
+            >
+              Contact Us
+            </li>
+
+            <li
+              className="border-b border-black py-6 cursor-pointer  text-black"
+              onClick={() => setNavIcon(!navIcon)}
+            >
+              About Us
+            </li>
+          </ul>
+        </div>
       </nav>
     </>
   );

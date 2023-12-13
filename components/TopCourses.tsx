@@ -31,7 +31,7 @@ function TopCourses() {
               width="200"
               className="w-[100%] rounded-[5px]"
             />
-            <p className="text-zinc-950 text-[13px] font-medium capitalize">
+            <p className="text-zinc-950 text-[13px] font-medium capitalize mt-2">
               Learn Figma- uI/uX Design essential training
             </p>
             <div className="flex justify-between mt-4 flex-wrap gap-[1px] text-zinc-950 text-opacity-75 text-[12px] font-medium capitalize">
@@ -61,11 +61,11 @@ function TopCourses() {
           </div>
           <div className="bg-neutral-50 w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
             <img
-              src="images/first.svg"
+              src="images/second.svg"
               width="200"
               className="w-[100%] rounded-[5px]"
             />
-            <p className="text-zinc-950 text-[13px] font-medium capitalize">
+            <p className="text-zinc-950 text-[13px] font-medium capitalize mt-2">
               Learn Figma- uI/uX Design essential training
             </p>
             <div className="flex justify-between mt-4 flex-wrap gap-[1px] text-zinc-950 text-opacity-75 text-[12px] font-medium capitalize">
@@ -95,11 +95,11 @@ function TopCourses() {
           </div>
           <div className="bg-neutral-50 w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
             <img
-              src="images/first.svg"
+              src="images/third.svg"
               width="200"
               className="w-[100%] rounded-[5px]"
             />
-            <p className="text-zinc-950 text-[13px] font-medium capitalize">
+            <p className="text-zinc-950 text-[13px] font-medium capitalize mt-2">
               Learn Figma- uI/uX Design essential training
             </p>
             <div className="flex justify-between mt-4 flex-wrap gap-[1px] text-zinc-950 text-opacity-75 text-[12px] font-medium capitalize">
@@ -129,11 +129,11 @@ function TopCourses() {
           </div>
           <div className="bg-neutral-50 w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
             <img
-              src="images/first.svg"
+              src="images/fourth.svg"
               width="200"
               className="w-[100%] rounded-[5px]"
             />
-            <p className="text-zinc-950 text-[13px] font-medium capitalize">
+            <p className="text-zinc-950 text-[13px] font-medium capitalize mt-2">
               Learn Figma- uI/uX Design essential training
             </p>
             <div className="flex justify-between mt-4 flex-wrap gap-[1px] text-zinc-950 text-opacity-75 text-[12px] font-medium capitalize">

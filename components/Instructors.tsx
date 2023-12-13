@@ -80,7 +80,7 @@ function Instructors() {
 
       {/* ---------------------------Mobile view --------------------------------- */}
       <div className="flex flex-col justify-between items center xl:hidden">
-        <div className="border-2 border-red-700 h-[170px] mx-auto px-[8px] w-full mt-[60px]">
+        <div className="h-[170px] mx-auto px-[8px] w-full mt-[60px]">
           <img
             src="icons/best-instructor.svg"
             width="210"
@@ -106,7 +106,7 @@ function Instructors() {
             </div>
           </div>
         </div>
-        <div className="border border-black px-2 min-h-[100vh] grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3 mt-[50px]">
+        <div className=" px-2 min-h-[100vh] grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3 mt-[50px]">
           <div className=" px-[8px] pt-[8px] pb-[40px] bg-neutral-100 border border-zinc-50 rounded-xl w-full">
             <img
               src="images/instructor-one.svg"
