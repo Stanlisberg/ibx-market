@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-// import {inter}  from 'next/font/google'
+import Providers from "@/redux/Provider";
 import { Open_Sans, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -31,7 +31,7 @@ export default function RootLayout({
     <html lang="en">
       {/* <body className={inter.className}>{children}</body> */}
       {/* <body className={`${openSans.variable} ${robotoMono.variable} font-sans`}>{children}</body> */}
-      <body className={`${robotoMono.variable} font-sans`}>{children}</body>
+      <body className={`${robotoMono.variable} font-sans`}><Providers>{children}</Providers></body>
     </html>
   );
 }
