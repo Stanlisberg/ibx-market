@@ -5,11 +5,11 @@ import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 function Navbar() {
   return (
     <>
-      <nav className="flex justify-between items-center">
+      <nav className="flex justify-between items-center border-b border-zinc-100 py-5 px-[8px] sm:px-[10px] md:px-[10px] lg:px-[10px] xl:px-[80px]">
         <div className="flex justify-between items-center">
           <div className="flex">
-            <img src="icons/logo.svg" width="24" />
-            <h1 className="text-[20px] sm:text-[26px] text-zinc-950 font-black uppercase ml-1">
+            <img src="icons/logo.svg" width="28" />
+            <h1 className="text-[28px] sm:text-[26px] text-zinc-950 font-black uppercase ml-1">
               ACADEMY
             </h1>
           </div>
@@ -44,7 +44,7 @@ function Navbar() {
               placeholder="Search Anything"
             />
           </div>
-          <div className="flex text-sm items-center xl:mr-8 md:border-l h-8 w-[120px] md:w-[230px] lg:w-[180px] border-zinc-200 pl-[40px] py-[0px]">
+          <div className="flex text-sm items-center mr-8 xl:mr-8 md:border-l h-8 w-[120px] md:w-[230px] lg:w-[180px] border-zinc-200 pl-[40px] py-[0px]">
             <img
               src="icons/dash-image.png"
               width="33"
@@ -67,7 +67,7 @@ function Navbar() {
             <img src="icons/bell.svg" width="15" />
           </div>
         </div>
-        <HiOutlineMenu size="30" className="md:hidden" />
+        <HiOutlineMenu size="32" className="md:hidden mt-1" color='#9E5CF2'/>
       </nav>
     </>
   );

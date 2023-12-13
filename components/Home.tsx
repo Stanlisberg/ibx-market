@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import Slider from "./Slider";
 import Hero from "./Hero";
 import SearchCourse from "./SearchCourse";
 import NewCourses from "./NewCourses";
@@ -11,8 +12,10 @@ import Newsletter from "./Newsletter";
 function Home() {
   return (
     <div className="relative min-h-screen pb-4">
-      <div className="mt-5 py-5 mx-[8px] sm:mx-[10px] md:mx-[10px] lg:mx-[10px] xl:mx-[80px]">
-        <Navbar />
+       <Navbar />
+      <div className="py-5 mx-[8px] sm:mx-[10px] md:mx-[10px] lg:mx-[10px] xl:mx-[80px]">
+        {/* <Navbar /> */}
+        <Slider />
         <Hero />
         <SearchCourse />
         <NewCourses />
