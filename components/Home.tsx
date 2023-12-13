@@ -9,6 +9,7 @@ import Instructors from "./Instructors";
 import YourCourses from "./YourCourses";
 import Newsletter from "./Newsletter";
 import TopCourses from "./TopCourses";
+import Footer from "./Footer";
 
 function Home() {
   return (
@@ -26,6 +27,7 @@ function Home() {
       <YourCourses />
       <Newsletter />
       <TopCourses />
+      <Footer />
     </div>
   );
 }

@@ -6,7 +6,7 @@ function Hero() {
     <>
     <div className='hero border border-purple-600 mt-[60px] flex flex-col justify-center items-center xl:justify-between'>
       <div className='border-2 border-green-800 sm:w-[500px] lg:px-0 lg:mb-32'>
-        <div className="text-black text-[27px] text-center font-black capitalize leading-[45px]">
+        <div className="text-black text-[27px] text-center sm:text-start font-black capitalize leading-[45px]">
           <p>🙌 Hello friends</p>
           <p>I am Sofia and we want to start</p>
           <p> a <span className='text-black text-opacity-20'>Web</span><span className='text-purple-400'> Design</span> course together.</p>
