@@ -151,7 +151,7 @@ function Footer() {
             <div className="lg:w-[90%] w-full p-3 pl-3 bg-neutral-100 rounded-xl flex-col justify-start items-start inline-flex">
               <h1>ellsmartx</h1>
               <p>
-                Take a rest, i'll cheeer you up again
+                Take a rest i will cheeer you up again
                 <span className="hidden lg:contents">...</span>{" "}
                 <span className="lg:hidden">in two next game</span>
               </p>
@@ -177,7 +177,7 @@ function Footer() {
       </div>
       <div className="flex flex-col md:justify-between  bg-neutral-100 px-3 py-4 mt-9 capitalize text-[13px]">
         <div>Privacy Policy | terms & conditions</div>
-        <div>all copyright &#x00A9; 2022 reserved</div>
+        <div>all copyright 2022 reserved</div>
       </div>
     </div>
   );
