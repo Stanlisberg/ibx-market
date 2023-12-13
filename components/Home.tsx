@@ -8,6 +8,7 @@ import Overflow from "./Overflow";
 import Instructors from "./Instructors";
 import YourCourses from "./YourCourses";
 import Newsletter from "./Newsletter";
+import TopCourses from "./TopCourses";
 
 function Home() {
   return (
@@ -24,6 +25,7 @@ function Home() {
       <Instructors />
       <YourCourses />
       <Newsletter />
+      <TopCourses />
     </div>
   );
 }

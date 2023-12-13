@@ -101,7 +101,7 @@ function NewCourses() {
                   size="20"
                 />
               </div>
-              <img src="icons/star-four.svg" width="30" />
+              <img src="icons/star-three.svg" width="30" />
             </div>
           </div>
           <div className="bg-neutral-50  w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
@@ -135,7 +135,7 @@ function NewCourses() {
                   size="20"
                 />
               </div>
-              <img src="icons/star-four.svg" width="30" />
+              <img src="icons/star-five.svg" width="30" />
             </div>
           </div>
           <div className="bg-neutral-50  w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
@@ -169,7 +169,7 @@ function NewCourses() {
                   size="20"
                 />
               </div>
-              <img src="icons/star-four.svg" width="30" />
+              <img src="icons/star-two.svg" width="30" />
             </div>
           </div>
           <div className="bg-neutral-50  w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
@@ -203,7 +203,7 @@ function NewCourses() {
                   size="20"
                 />
               </div>
-              <img src="icons/star-four.svg" width="30" />
+              <img src="icons/star-five.svg" width="30" />
             </div>
           </div>
           <div className="bg-neutral-50  w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
@@ -237,7 +237,7 @@ function NewCourses() {
                   size="20"
                 />
               </div>
-              <img src="icons/star-four.svg" width="30" />
+              <img src="icons/star-one.svg" width="30" />
             </div>
           </div>
           <div className="bg-neutral-50  w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
@@ -271,7 +271,7 @@ function NewCourses() {
                   size="20"
                 />
               </div>
-              <img src="icons/star-four.svg" width="30" />
+              <img src="icons/star-three.svg" width="30" />
             </div>
           </div>
           <div className="bg-neutral-50  w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
