@@ -6,8 +6,8 @@ function NewCourses() {
   return (
     <>
       <div>
-        <div className="flex justify-between items-center mt-[15px]">
-          <div className="flex justify-center items-center px-2">
+        <div className="flex justify-between items-center mt-[60px]">
+          <div className="flex justify-center items-center px-1 xl:px-2">
             <GoDotFill size="5" color="purple" className="mt-[3px]" />{" "}
             <p className="text-zinc-950 text-[16px] font-semibold uppercase ml-[6px]">
               New Courses(Book)
@@ -35,8 +35,8 @@ function NewCourses() {
             </li>
           </ul>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-10 w-[100%] text-zinc-950 font-medium capitalize text-sm">
-          <div className="border border-zinc-200 w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-[30px] w-[100%] text-zinc-950 font-medium capitalize text-sm">
+          <div className="bg-neutral-50 w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
             <img
               src="images/first.svg"
               width="200"
@@ -60,7 +60,7 @@ function NewCourses() {
               </div>
             </div>
             <div className="flex justify-between text-sm items-center mt-[18px] flex-wrap">
-              <div className="w-[70px] sm:w-[120px] pl-[10px] cursor-pointer py-[6px] bg-zinc-950 text-white text-sm rounded-[10px] justify-center items-center inline-flex">
+              <div className="hover:bg-zinc-700 w-[70px] sm:w-[120px] pl-[10px] cursor-pointer py-[6px] bg-zinc-950 text-white text-sm rounded-[10px] justify-center items-center inline-flex">
                 start <span className="sm:contents hidden">course</span>
                 <MdOutlineKeyboardArrowRight
                   className="ml-0.5 mt-1"
@@ -70,7 +70,7 @@ function NewCourses() {
               <img src="icons/star-four.svg" width="30" />
             </div>
           </div>
-          <div className="border border-zinc-200 w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
+          <div className="bg-neutral-50  w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
             <img
               src="images/second.svg"
               width="200"
@@ -94,7 +94,7 @@ function NewCourses() {
               </div>
             </div>
             <div className="flex justify-between items-center mt-[18px] flex-wrap">
-              <div className="w-[70px] sm:w-[110px] pl-[10px] cursor-pointer py-[6px] bg-zinc-950 text-white text-[13px] rounded-[10px] justify-center items-center inline-flex">
+              <div className="hover:bg-zinc-700 w-[70px] sm:w-[110px] pl-[10px] cursor-pointer py-[6px] bg-zinc-950 text-white text-[13px] rounded-[10px] justify-center items-center inline-flex">
                 start <span className="sm:contents hidden">course</span>
                 <MdOutlineKeyboardArrowRight
                   className="ml-0.5 mt-1"
@@ -104,7 +104,7 @@ function NewCourses() {
               <img src="icons/star-four.svg" width="30" />
             </div>
           </div>
-          <div className="border border-zinc-200 w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
+          <div className="bg-neutral-50  w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
             <img
               src="images/third.svg"
               width="200"
@@ -128,7 +128,7 @@ function NewCourses() {
               </div>
             </div>
             <div className="flex justify-between text-sm items-center mt-[18px] flex-wrap">
-              <div className="w-[70px] sm:w-[110px] pl-[10px] cursor-pointer py-[6px] bg-zinc-950 text-white text-[13px] rounded-[10px] justify-center items-center inline-flex">
+              <div className="hover:bg-zinc-700 w-[70px] sm:w-[110px] pl-[10px] cursor-pointer py-[6px] bg-zinc-950 text-white text-[13px] rounded-[10px] justify-center items-center inline-flex">
                 start <span className="sm:contents hidden">course</span>
                 <MdOutlineKeyboardArrowRight
                   className="ml-0.5 mt-1"
@@ -138,7 +138,7 @@ function NewCourses() {
               <img src="icons/star-four.svg" width="30" />
             </div>
           </div>
-          <div className="border border-zinc-200 w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
+          <div className="bg-neutral-50  w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
             <img
               src="images/fourth.svg"
               width="200"
@@ -162,7 +162,7 @@ function NewCourses() {
               </div>
             </div>
             <div className="flex justify-between text-sm items-center mt-[18px] flex-wrap">
-              <div className="w-[70px] sm:w-[110px] pl-[10px] cursor-pointer py-[6px] bg-zinc-950 text-white text-[13px] rounded-[10px] justify-center items-center inline-flex">
+              <div className="hover:bg-zinc-700 w-[70px] sm:w-[110px] pl-[10px] cursor-pointer py-[6px] bg-zinc-950 text-white text-[13px] rounded-[10px] justify-center items-center inline-flex">
                 start <span className="sm:contents hidden">course</span>
                 <MdOutlineKeyboardArrowRight
                   className="ml-0.5 mt-1"
@@ -172,7 +172,7 @@ function NewCourses() {
               <img src="icons/star-four.svg" width="30" />
             </div>
           </div>
-          <div className="border border-zinc-200 w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
+          <div className="bg-neutral-50  w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
             <img
               src="images/fifth.svg"
               width="200"
@@ -196,7 +196,7 @@ function NewCourses() {
               </div>
             </div>
             <div className="flex justify-between text-sm items-center mt-[18px] flex-wrap">
-              <div className="w-[70px] sm:w-[110px] pl-[10px] cursor-pointer py-[6px] bg-zinc-950 text-white text-[13px] rounded-[10px] justify-center items-center inline-flex">
+              <div className="hover:bg-zinc-700 w-[70px] sm:w-[110px] pl-[10px] cursor-pointer py-[6px] bg-zinc-950 text-white text-[13px] rounded-[10px] justify-center items-center inline-flex">
                 start <span className="sm:contents hidden">course</span>
                 <MdOutlineKeyboardArrowRight
                   className="ml-0.5 mt-1"
@@ -206,7 +206,7 @@ function NewCourses() {
               <img src="icons/star-four.svg" width="30" />
             </div>
           </div>
-          <div className="border border-zinc-200 w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
+          <div className="bg-neutral-50  w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
             <img
               src="images/sixth.svg"
               width="200"
@@ -230,7 +230,7 @@ function NewCourses() {
               </div>
             </div>
             <div className="flex justify-between text-sm items-center mt-[18px] flex-wrap">
-              <div className="w-[70px] sm:w-[110px] pl-[10px] cursor-pointer py-[6px] bg-zinc-950 text-white text-[13px] rounded-[10px] justify-center items-center inline-flex">
+              <div className="hover:bg-zinc-700 w-[70px] sm:w-[110px] pl-[10px] cursor-pointer py-[6px] bg-zinc-950 text-white text-[13px] rounded-[10px] justify-center items-center inline-flex">
                 start <span className="sm:contents hidden">course</span>
                 <MdOutlineKeyboardArrowRight
                   className="ml-0.5 mt-1"
@@ -240,7 +240,7 @@ function NewCourses() {
               <img src="icons/star-four.svg" width="30" />
             </div>
           </div>
-          <div className="border border-zinc-200 w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
+          <div className="bg-neutral-50  w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
             <img
               src="images/seventh.svg"
               width="200"
@@ -264,7 +264,7 @@ function NewCourses() {
               </div>
             </div>
             <div className="flex justify-between text-sm items-center mt-[18px] flex-wrap">
-              <div className="w-[70px] sm:w-[110px] pl-[10px] cursor-pointer py-[6px] bg-zinc-950 text-white text-[13px] rounded-[10px] justify-center items-center inline-flex">
+              <div className="hover:bg-zinc-700 w-[70px] sm:w-[110px] pl-[10px] cursor-pointer py-[6px] bg-zinc-950 text-white text-[13px] rounded-[10px] justify-center items-center inline-flex">
                 start <span className="sm:contents hidden">course</span>
                 <MdOutlineKeyboardArrowRight
                   className="ml-0.5 mt-1"
@@ -274,7 +274,7 @@ function NewCourses() {
               <img src="icons/star-four.svg" width="30" />
             </div>
           </div>
-          <div className="border border-zinc-200 w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
+          <div className="bg-neutral-50  w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
             <img
               src="images/eighth.svg"
               width="200"
@@ -298,7 +298,7 @@ function NewCourses() {
               </div>
             </div>
             <div className="flex justify-between text-sm items-center mt-[18px] flex-wrap">
-              <div className="w-[70px] sm:w-[110px] pl-[10px] cursor-pointer py-[6px] bg-zinc-950 text-white text-[13px] rounded-[10px] justify-center items-center inline-flex">
+              <div className="hover:bg-zinc-700 w-[70px] sm:w-[110px] pl-[10px] cursor-pointer py-[6px] bg-zinc-950 text-white text-[13px] rounded-[10px] justify-center items-center inline-flex">
                 start <span className="sm:contents hidden">course</span>
                 <MdOutlineKeyboardArrowRight
                   className="ml-0.5 mt-1"
@@ -310,23 +310,6 @@ function NewCourses() {
           </div>
         </div>
       </div>
-
-
-
-      {/* <div className="w-[1204px] h-72 relative rounded-tl-[40px] rounded-bl-[40px]">
-        <div className="w-[1204px] h-72 left-0 top-0 absolute bg-purple-500 bg-opacity-10" />
-        <div className="w-[1204px] h-[292px] left-0 top-[-2px] absolute">
-          <div className="w-[401px] h-[292px] left-[803px] top-0 absolute justify-end items-center inline-flex">
-            <div className="w-[543.81px] h-[327.87px] relative"></div>
-          </div>
-          <div className="w-[401px] h-[292px] left-0 top-0 absolute justify-end items-center inline-flex">
-            <div className="w-[543.81px] h-[327.87px] relative"></div>
-          </div>
-          <div className="w-[402px] h-[292px] left-[803px] top-0 absolute origin-top-left rotate-180 justify-end items-center inline-flex">
-            <div className="w-[545.17px] h-[327.87px] relative"></div>
-          </div>
-        </div>
-      </div> */}
     </>
   );
 }

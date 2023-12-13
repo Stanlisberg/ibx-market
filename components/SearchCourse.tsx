@@ -23,7 +23,7 @@ function SearchCourse() {
             className="absolute right-2 top-[14px]"
             width="15"
           />
-          <div className="w-[70px] md:w-[100px] ml-2 px-7 py-1.5 bg-zinc-950 rounded-[10px] text-white justify-center items-center gap-2 inline-flex cursor-pointer">
+          <div className="hover:scale-90 ease-in-out duration-300 w-[70px] md:w-[100px] ml-2 px-7 py-1.5 bg-zinc-950 rounded-[10px] text-white justify-center items-center gap-2 inline-flex cursor-pointer">
             Categories
           </div>
           <input

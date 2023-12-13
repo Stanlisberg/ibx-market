@@ -4,7 +4,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 function Instructors() {
   return (
     <>
-    <div className="hidden xl:flex justify-between border-2 items-center border-blue-600 mt-[170px] mx-[8px] sm:mx-[10px] md:mx-[10px] lg:mx-[10px] xl:mr-0 xl:ml-[80px]">
+    <div className="hidden xl:flex justify-between border-2 items-center border-blue-600 mt-[120px] mx-[8px] sm:mx-[10px] md:mx-[10px] lg:mx-[10px] xl:mr-0 xl:ml-[80px]">
       <div className="border-2 border-red-700 w-[320px] h-[170px]">
         <img
           src="icons/best-instructor.svg"
@@ -16,7 +16,7 @@ function Instructors() {
           best courses
         </p>
         <div className="flex mt-5 relative">
-          <div className="w-[120px] md:w-[135px] px-[4px] capitalize cursor-pointer py-[8px] bg-zinc-950 text-white text-sm rounded-[10px] mt-7 mb-[20px] justify-center items-center inline-flex">
+          <div className=" hover:scale-90 ease-in-out duration-300 w-[120px] md:w-[135px] px-[4px] capitalize cursor-pointer py-[8px] bg-zinc-950 text-white text-sm rounded-[10px] mt-7 mb-[20px] justify-center items-center inline-flex">
             All <span className="sm:contents hidden">Instructors</span>
             <MdOutlineKeyboardArrowRight className="ml-2 mt-1" size="20" />
           </div>
@@ -82,7 +82,7 @@ function Instructors() {
 
     {/* ---------------------------Mobile view --------------------------------- */}
       <div className="flex flex-col justify-between items center xl:hidden">
-        <div className="border-2 border-red-700 h-[170px] mx-auto px-[8px] w-full mt-[50px]">
+        <div className="border-2 border-red-700 h-[170px] mx-auto px-[8px] w-full mt-[60px]">
           <img
             src="icons/best-instructor.svg"
             width="210"
@@ -93,7 +93,7 @@ function Instructors() {
             the best courses
           </p>
           <div className="flex mt-5 relative">
-            <div className="w-[75px] md:w-[135px] px-[4px] capitalize cursor-pointer py-[6px] bg-zinc-950 text-white text-sm rounded-[10px] mt-7 mb-[20px] justify-center items-center inline-flex">
+            <div className="hover:scale-90 ease-in-out duration-300 w-[75px] md:w-[135px] px-[4px] capitalize cursor-pointer py-[6px] bg-zinc-950 text-white text-sm rounded-[10px] mt-7 mb-[20px] justify-center items-center inline-flex">
               All <span className="hidden sm:contents"> Instructors</span>
               <MdOutlineKeyboardArrowRight className="ml-2 mt-1" size="20" />
             </div>
