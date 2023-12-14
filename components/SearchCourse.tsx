@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function SearchCourse() {
   return (
@@ -18,7 +19,9 @@ function SearchCourse() {
       </div>
       <div className="flex flex-col justify-center md:flex-row items-center mt-[50px] md:mt-[20px]">
         <div className="w-[270px] md:w-[504px] border border-neutral-50 relative md:ml-[60px] bg-neutral-50 rounded-[6px] py-[5px] text-zinc-950 text-opacity-25 text-[13px]  justify-start items-center gap-4 inline-flex">
-          <img
+          <Image
+            alt='search'
+            height='20'
             src="icons/Search.svg"
             className="absolute right-2 top-[14px]"
             width="15"
@@ -36,8 +39,10 @@ function SearchCourse() {
           Or view the following courses...
         </div>
         <img
+          alt='arrow'
           src="icons/spring-arrow-green.svg"
           width="90"
+          height='20'
           className="md:mb-[70px] md:mt-0 mt-[10px]"
         />
       </div>

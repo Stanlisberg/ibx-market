@@ -1,13 +1,19 @@
 import React from "react";
 import { GoDotFill } from "react-icons/go";
+import Image from "next/image";
 
 function Footer() {
   return (
     <div className="mt-[60px] xl:mt-[90px] sm:mx-[10px] md:mx-[10px] lg:mx-[10px] xl:mx-[80px] p-4 pb-4  bg-neutral-50 rounded-tl-[40px] rounded-tr-[40px]">
       <div className="justify-between items-center hidden xl:flex">
-        <img src="images/footer-para.svg" width="940" />
+        <Image
+          alt="footer image"
+          src="images/footer-para.svg"
+          width="940"
+          height="20"
+        />
         <div className="mr-7 text-center flex flex-col justify-center items-center">
-          <img src="icons/logo.svg" width="60" />
+          <Image alt="logo image" src="icons/logo.svg" width="60" height="20" />
           <h1 className="text-zinc-950 text-[28px] font-black uppercase">
             Academy
           </h1>
@@ -37,7 +43,13 @@ function Footer() {
             </p>
           </div>
           <div className="">
-            <img src="images/certificate.svg" className="mt-3" width="350px" />
+            <Image
+              alt="cert image"
+              src="images/certificate.svg"
+              className="mt-3"
+              width="350"
+              height="20"
+            />
           </div>
         </div>
         <div className="lg:col-span-2 md:col-span-4 col-span-12">

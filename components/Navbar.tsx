@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { useState } from "react";
 import { HiOutlineMenu } from "react-icons/hi";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
@@ -14,7 +15,7 @@ function Navbar() {
       <nav className="flex justify-between items-center border-b border-zinc-100 py-5 px-[8px] sm:px-[10px] md:px-[10px] lg:px-[10px] xl:px-[80px]">
         <div className="flex justify-between items-center">
           <div className="flex">
-            <img src="icons/logo.svg" width="28" />
+            <Image alt="logo" height="20" src="icons/logo.svg" width="28" />
             <h1 className="text-[28px] sm:text-[26px] text-zinc-950 font-black uppercase ml-1">
               ACADEMY
             </h1>
@@ -41,7 +42,9 @@ function Navbar() {
         </div>
         <div className="flex items-center">
           <div className="w-[200px] hidden md:flex relative mr-[40px] bg-neutral-50 rounded-[6px] py-[3px] text-zinc-950 text-opacity-25 text-[13px]">
-            <img
+            <Image
+              alt="search"
+              height="20"
               src="icons/Search.svg"
               className="absolute right-2 top-[10px]"
               width="15"
@@ -53,7 +56,13 @@ function Navbar() {
             />
           </div>
           <div className="flex text-sm items-center mr-8 xl:mr-8 md:border-l h-8 w-[120px] md:w-[230px] lg:w-[180px] border-zinc-200 pl-[40px] py-[0px]">
-            <img src="icons/dash-image.png" width="33" className="rounded-md" />
+            <Image
+              alt="dash"
+              height="20"
+              src="icons/dashed.svg"
+              width="33"
+              className="rounded-md"
+            />
             <span className="text-sm ml-2 flex md:grid items-center">
               <p className="text-zinc-950 text-[14px] leading-3 font-medium">
                 Behzad <span className="hidden md:contents">Paschei</span>
@@ -68,7 +77,7 @@ function Navbar() {
             </span>
           </div>
           <div className="bell py-2 px-2 hidden md:grid bg-purple-500 bg-opacity-5 rounded-xl">
-            <img src="icons/bell.svg" width="15" />
+            <Image alt="ball" src="icons/bell.svg" height="20" width="15" />
           </div>
         </div>
         <div className="md:hidden mt-1 block cursor-pointer z-[10]">

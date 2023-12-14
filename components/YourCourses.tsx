@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { GoDotFill } from "react-icons/go";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
@@ -19,7 +20,10 @@ function YourCourses() {
         </div>
         <div className="grid w-[100%] grid-cols-1 gap-4 xl:grid-cols-2 mt-[30px]">
           <div className="flex flex-col xl:flex-row gap-3 mx-2 xl:mx-0 px-[8px] py-2 bg-neutral-100 border border-zinc-100 rounded-xl">
-            <img
+            <Image
+              alt="one"
+              height="0"
+              width="0"
               src="images/course-one.svg"
               className="width-[50%] w-full xl:w-[50%]"
             />
@@ -29,20 +33,36 @@ function YourCourses() {
               </p>
               <div className="flex justify-between mt-4 flex-wrap gap-[1px] text-zinc-950 text-opacity-75 text-[12px] font-medium capitalize">
                 <div className="flex justify-center items-center">
-                  <img src="icons/lesson.svg" width="13" />
+                  <Image
+                    alt="lesson"
+                    height="0"
+                    src="icons/lesson.svg"
+                    width="13"
+                  />
                   <p className="ml-[4px] text-[12px]">lesson : 6</p>
                 </div>
                 <div className="flex justify-center items-center">
-                  <img src="icons/student.svg" width="13" />
+                  <Image
+                    alt="student"
+                    height="0"
+                    src="icons/student.svg"
+                    width="13"
+                  />
                   <p className="ml-[4px] text-[12px]">Student : 198</p>
                 </div>
                 <div className="flex justify-center items-center">
-                  <img src="icons/cup.svg" width="16" />
+                  <Image alt="cup" height="0" src="icons/cup.svg" width="16" />
                   <p className="ml-[4px] text-[12px]">Average</p>
                 </div>
               </div>
               <div>
-                <img src="icons/point-one.svg" className="mt-4" />
+                <Image
+                  alt="point"
+                  src="icons/point-one.svg"
+                  height="0"
+                  width="0"
+                  className="mt-4 w-full"
+                />
               </div>
               <div className="flex justify-between items-center mt-2">
                 <div className="text-zinc-950 text-opacity-75 text-xs font-normal capitalize">
@@ -52,11 +72,13 @@ function YourCourses() {
                   Days: 56
                 </div>
               </div>
-              <div className="flex justify-between items-center mt-3">
+              <div className="flex justify-between items-center mt-4">
                 <div className="flex mt-[20px]">
-                  <img
+                  <Image
+                    alt="small"
                     src="images/small-one.svg"
                     width="33"
+                    height="0"
                     className="rounded-[10px]"
                   />
                   <div className="text-stone-700 text-[12px] font-medium leading-1 ml-2 tracking-tight">
@@ -79,7 +101,10 @@ function YourCourses() {
             </div>
           </div>
           <div className="flex flex-col xl:flex-row gap-3 mx-2  xl:mx-0 px-[8px] py-2 bg-neutral-100 border border-zinc-100 rounded-xl">
-            <img
+            <Image
+              alt="two"
+              height="0"
+              width="0"
               src="images/course-two.svg"
               className="width-[50%] w-full xl:w-[50%]"
             />
@@ -91,20 +116,36 @@ function YourCourses() {
               </p>
               <div className="flex justify-between mt-4 flex-wrap gap-[1px] text-zinc-950 text-opacity-75 text-[12px] font-medium capitalize">
                 <div className="flex justify-center items-center">
-                  <img src="icons/lesson.svg" width="13" />
+                  <Image
+                    alt="lesson"
+                    src="icons/lesson.svg"
+                    height="0"
+                    width="13"
+                  />
                   <p className="ml-[4px] text-[12px]">lesson : 6</p>
                 </div>
                 <div className="flex justify-center items-center">
-                  <img src="icons/student.svg" width="13" />
+                  <Image
+                    alt="student"
+                    src="icons/student.svg"
+                    height="0"
+                    width="13"
+                  />
                   <p className="ml-[4px] text-[12px]">Student : 198</p>
                 </div>
                 <div className="flex justify-center items-center">
-                  <img src="icons/cup.svg" width="16" />
+                  <Image alt="cup" src="icons/cup.svg" height="0" width="16" />
                   <p className="ml-[4px] text-[12px]">Advance</p>
                 </div>
               </div>
               <div>
-                <img src="icons/point-two.svg" className="mt-4" />
+                <Image
+                  alt="two"
+                  height="0"
+                  width="0"
+                  src="icons/point-two.svg"
+                  className="mt-4 width-full"
+                />
               </div>
               <div className="flex justify-between items-center mt-2">
                 <div className="text-zinc-950 text-opacity-75 text-xs font-normal capitalize">
@@ -114,11 +155,13 @@ function YourCourses() {
                   Days: 56
                 </div>
               </div>
-              <div className="flex justify-between items-center mt-3">
+              <div className="flex justify-between items-center mt-4">
                 <div className="flex mt-[20px]">
-                  <img
+                  <Image
+                    alt="small"
                     src="images/small-two.svg"
                     width="33"
+                    height="0"
                     className="rounded-[10px]"
                   />
                   <div className="text-stone-700 text-[12px] font-medium leading-1 ml-2 tracking-tight">
@@ -142,8 +185,11 @@ function YourCourses() {
           </div>
 
           <div className="flex flex-col xl:flex-row gap-3 mx-2  xl:mx-0 border border-zinc-100 px-[8px] py-2 bg-neutral-100 rounded-xl">
-            <img
+            <Image
+              alt="three"
               src="images/course-three.svg"
+              width="0"
+              height="0"
               className="width-[50%] w-full xl:w-[50%]"
             />
             <div className="my-2">
@@ -157,22 +203,38 @@ function YourCourses() {
               </p>
               <div className="flex justify-between mt-4 flex-wrap gap-[1px] text-zinc-950 text-opacity-75 text-[12px] font-medium capitalize">
                 <div className="flex justify-center items-center">
-                  <img src="icons/lesson.svg" width="13" />
+                  <Image
+                    alt="lesson"
+                    src="icons/lesson.svg"
+                    width="13"
+                    height="0"
+                  />
                   <p className="ml-[4px] text-[12px]">lesson : 6</p>
                 </div>
                 <div className="flex justify-center items-center">
-                  <img src="icons/student.svg" width="13" />
+                  <Image
+                    alt="student"
+                    src="icons/student.svg"
+                    width="13"
+                    height="0"
+                  />
                   <p className="ml-[4px] text-[12px]">Student : 198</p>
                 </div>
                 <div className="flex justify-center items-center">
-                  <img src="icons/cup.svg" width="16" />
+                  <Image alt="cup" src="icons/cup.svg" width="16" height="0" />
                   <p className="ml-[4px] text-[12px]">Beginner</p>
                 </div>
               </div>
               <div>
-                <img src="icons/point-three.svg" className="mt-4" />
+                <Image
+                  alt="three"
+                  height="0"
+                  width="0"
+                  src="icons/point-three.svg"
+                  className="mt-4 width-full"
+                />
               </div>
-              <div className="flex justify-between items-center mt-2">
+              <div className="flex justify-between items-center mt-4">
                 <div className="text-zinc-950 text-opacity-75 text-xs font-normal capitalize">
                   Points: 50 / 100
                 </div>
@@ -182,10 +244,12 @@ function YourCourses() {
               </div>
               <div className="flex justify-between items-center mt-3">
                 <div className="flex mt-[20px]">
-                  <img
+                  <Image
+                    alt="three"
                     src="images/small-three.svg"
                     width="33"
                     className="rounded-[10px]"
+                    height="0"
                   />
                   <div className="text-stone-700 text-[12px] font-medium leading-1 ml-2 tracking-tight">
                     <h1>Jon katner</h1>
@@ -207,8 +271,11 @@ function YourCourses() {
             </div>
           </div>
           <div className="flex flex-col xl:flex-row gap-3 mx-2  xl:mx-0 border border-zinc-100 px-[8px] py-2 bg-neutral-100 rounded-xl">
-            <img
+            <Image
+              alt="four"
               src="images/course-four.svg"
+              height="0"
+              width="0"
               className="width-[50%] w-full xl:w-[50%]"
             />
             <div className="my-2">
@@ -217,22 +284,38 @@ function YourCourses() {
               </p>
               <div className="flex justify-between mt-4 flex-wrap gap-[1px] text-zinc-950 text-opacity-75 text-[12px] font-medium capitalize">
                 <div className="flex justify-center items-center">
-                  <img src="icons/lesson.svg" width="13" />
+                  <Image
+                    alt="lesson"
+                    src="icons/lesson.svg"
+                    width="13"
+                    height="0"
+                  />
                   <p className="ml-[4px] text-[12px]">lesson : 6</p>
                 </div>
                 <div className="flex justify-center items-center">
-                  <img src="icons/student.svg" width="13" />
+                  <Image
+                    alt="student"
+                    src="icons/student.svg"
+                    width="13"
+                    height="0"
+                  />
                   <p className="ml-[4px] text-[12px]">Student : 198</p>
                 </div>
                 <div className="flex justify-center items-center">
-                  <img src="icons/cup.svg" width="16" />
+                  <Image alt="cup" src="icons/cup.svg" width="16" height="0" />
                   <p className="ml-[4px] text-[12px]">Beginner</p>
                 </div>
               </div>
               <div>
-                <img src="icons/point-four.svg" className="mt-4" />
+                <Image
+                  alt="four"
+                  height="0"
+                  width="0"
+                  src="icons/point-four.svg"
+                  className="mt-4 w-ful"
+                />
               </div>
-              <div className="flex justify-between items-center mt-2">
+              <div className="flex justify-between items-center mt-4">
                 <div className="text-zinc-950 text-opacity-75 text-xs font-normal capitalize">
                   Points: 100 / 100
                 </div>
@@ -242,9 +325,11 @@ function YourCourses() {
               </div>
               <div className="flex justify-between items-center mt-3">
                 <div className="flex mt-[20px]">
-                  <img
+                  <Image
+                    alt="four"
                     src="images/small-four.svg"
                     width="33"
+                    height="0"
                     className="rounded-[10px]"
                   />
                   <div className="text-stone-700 text-[12px] font-medium leading-1 ml-2 tracking-tight">

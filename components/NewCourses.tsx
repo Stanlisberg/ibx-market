@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { GoDotFill } from "react-icons/go";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
@@ -36,7 +37,7 @@ function NewCourses() {
     dispatch(fetchBooks());
   }, []);
 
-  // console.log(bookData);
+  console.log(bookData);
   return (
     <>
       <div className="flex justify-between items-center mt-[60px]">
@@ -76,9 +77,11 @@ function NewCourses() {
               "
               key={index}
             >
-              <img
+              <Image
+                alt="cover"
                 src={item.cover_image}
                 width="100"
+                height="20"
                 className="w-[100%] rounded-[5px]"
               />
 
@@ -112,15 +115,25 @@ function NewCourses() {
               </p>
               <div className="flex justify-between mt-4 flex-wrap gap-[1px] text-zinc-950 text-opacity-75 text-[12px] font-medium capitalize">
                 <div className="flex justify-center items-center">
-                  <img src="icons/lesson.svg" width="13" />
+                  <Image
+                    alt="lesson"
+                    height="20"
+                    src="icons/lesson.svg"
+                    width="13"
+                  />
                   <p className="ml-[4px] text-[12px]">lesson : 6</p>
                 </div>
                 <div className="flex justify-center items-center">
-                  <img src="icons/student.svg" width="13" />
+                  <Image
+                    alt="student"
+                    height="12"
+                    src="icons/student.svg"
+                    width="13"
+                  />
                   <p className="ml-[4px] text-[12px]">Student : 168</p>
                 </div>
                 <div className="flex justify-center items-center">
-                  <img src="icons/cup.svg" width="16" />
+                  <Image alt="cup" height="20" src="icons/cup.svg" width="16" />
                   <p className="ml-[4px] text-[12px]">Beginner</p>
                 </div>
               </div>
@@ -157,6 +170,7 @@ function NewCourses() {
 }
 
 export default NewCourses;
+
 
 
 

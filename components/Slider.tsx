@@ -9,11 +9,12 @@ function Slider() {
         <IoIosArrowBack size="20" className="" />
       </div>
       <ul className="no-scrollbar gap-[40px] flex whitespace-nowrap overflow-x-scroll items-center text-zinc-950 text-[13px] font-medium capitalize">
-        <img
+          <img
+          alt='code'
           src="icons/code-dot.svg"
           width="32"
           className="bg-neutral-200 rounded-[5px]"
-        />
+         />
         {/* <li className='px-2 bg-emerald-100 py-1 rounded-[5px]'><a href='#'>< HiCodeBracket size='22' color='009E68'/></a></li> */}
         <li>
           <a href="#" className="bg-neutral-200 py-1 px-2 rounded-[5px]">

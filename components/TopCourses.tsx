@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { GoDotFill } from "react-icons/go";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { IoIosArrowBack } from "react-icons/io";
@@ -26,9 +27,11 @@ function TopCourses() {
         </div>
         <div className="grid lg:flex gap-4 mt-[30px] w-[100%] text-zinc-950 font-medium capitalize text-sm">
           <div className="bg-neutral-50 w-[100%] pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
-            <img
+            <Image
+              alt="first"
               src="images/first.svg"
               width="200"
+              height="0"
               className="w-[100%] rounded-[5px]"
             />
             <p className="text-zinc-950 text-[13px] font-medium capitalize mt-2">
@@ -36,15 +39,25 @@ function TopCourses() {
             </p>
             <div className="flex justify-between mt-4 flex-wrap gap-[1px] text-zinc-950 text-opacity-75 text-[12px] font-medium capitalize">
               <div className="flex justify-center items-center">
-                <img src="icons/lesson.svg" width="13" />
+                <Image
+                  alt="lesson"
+                  height="0"
+                  src="icons/lesson.svg"
+                  width="13"
+                />
                 <p className="ml-[4px] text-[12px]">lesson : 6</p>
               </div>
               <div className="flex justify-center items-center">
-                <img src="icons/student.svg" width="13" />
+                <Image
+                  alt="student"
+                  height="0"
+                  src="icons/student.svg"
+                  width="13"
+                />
                 <p className="ml-[4px] text-[12px]">Student : 168</p>
               </div>
               <div className="flex justify-center items-center">
-                <img src="icons/cup.svg" width="16" />
+                <Image alt="cup" height="0" src="icons/cup.svg" width="16" />
                 <p className="ml-[4px] text-[12px]">Beginner</p>
               </div>
             </div>
@@ -56,11 +69,18 @@ function TopCourses() {
                   size="20"
                 />
               </div>
-              <img src="icons/star-four.svg" width="30" />
+              <Image
+                alt="four"
+                height="0"
+                src="icons/star-four.svg"
+                width="30"
+              />
             </div>
           </div>
           <div className="bg-neutral-50 w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
-            <img
+            <Image
+              alt="second"
+              height="0"
               src="images/second.svg"
               width="200"
               className="w-[100%] rounded-[5px]"
@@ -70,15 +90,25 @@ function TopCourses() {
             </p>
             <div className="flex justify-between mt-4 flex-wrap gap-[1px] text-zinc-950 text-opacity-75 text-[12px] font-medium capitalize">
               <div className="flex justify-center items-center">
-                <img src="icons/lesson.svg" width="13" />
+                <Image
+                  alt="lesson"
+                  height="0"
+                  src="icons/lesson.svg"
+                  width="13"
+                />
                 <p className="ml-[4px] text-[12px]">lesson : 6</p>
               </div>
               <div className="flex justify-center items-center">
-                <img src="icons/student.svg" width="13" />
+                <Image
+                  alt="student"
+                  src="icons/student.svg"
+                  height="0"
+                  width="13"
+                />
                 <p className="ml-[4px] text-[12px]">Student : 168</p>
               </div>
               <div className="flex justify-center items-center">
-                <img src="icons/cup.svg" width="16" />
+                <Image alt="cup" height="0" src="icons/cup.svg" width="16" />
                 <p className="ml-[4px] text-[12px]">Beginner</p>
               </div>
             </div>
@@ -90,11 +120,18 @@ function TopCourses() {
                   size="20"
                 />
               </div>
-              <img src="icons/star-three.svg" width="30" />
+              <Image
+                alt="three"
+                height="0"
+                src="icons/star-three.svg"
+                width="30"
+              />
             </div>
           </div>
           <div className="bg-neutral-50 w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
-            <img
+            <Image
+              alt="third"
+              height="0"
               src="images/third.svg"
               width="200"
               className="w-[100%] rounded-[5px]"
@@ -104,15 +141,25 @@ function TopCourses() {
             </p>
             <div className="flex justify-between mt-4 flex-wrap gap-[1px] text-zinc-950 text-opacity-75 text-[12px] font-medium capitalize">
               <div className="flex justify-center items-center">
-                <img src="icons/lesson.svg" width="13" />
+                <Image
+                  alt="lesson"
+                  height="0"
+                  src="icons/lesson.svg"
+                  width="13"
+                />
                 <p className="ml-[4px] text-[12px]">lesson : 6</p>
               </div>
               <div className="flex justify-center items-center">
-                <img src="icons/student.svg" width="13" />
+                <Image
+                  alt="student"
+                  height="0"
+                  src="icons/student.svg"
+                  width="13"
+                />
                 <p className="ml-[4px] text-[12px]">Student : 168</p>
               </div>
               <div className="flex justify-center items-center">
-                <img src="icons/cup.svg" width="16" />
+                <Image alt="cup" height="0" src="icons/cup.svg" width="16" />
                 <p className="ml-[4px] text-[12px]">Beginner</p>
               </div>
             </div>
@@ -124,11 +171,18 @@ function TopCourses() {
                   size="20"
                 />
               </div>
-              <img src="icons/star-five.svg" width="30" />
+              <Image
+                alt="five"
+                height="0"
+                src="icons/star-five.svg"
+                width="30"
+              />
             </div>
           </div>
           <div className="bg-neutral-50 w-full pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
-            <img
+            <Image
+              alt="fourth"
+              height="0"
               src="images/fourth.svg"
               width="200"
               className="w-[100%] rounded-[5px]"
@@ -138,15 +192,25 @@ function TopCourses() {
             </p>
             <div className="flex justify-between mt-4 flex-wrap gap-[1px] text-zinc-950 text-opacity-75 text-[12px] font-medium capitalize">
               <div className="flex justify-center items-center">
-                <img src="icons/lesson.svg" width="13" />
+                <Image
+                  alt="lesson"
+                  height="0"
+                  src="icons/lesson.svg"
+                  width="13"
+                />
                 <p className="ml-[4px] text-[12px]">lesson : 6</p>
               </div>
               <div className="flex justify-center items-center">
-                <img src="icons/student.svg" width="13" />
+                <Image
+                  alt="student"
+                  height="0"
+                  src="icons/student.svg"
+                  width="13"
+                />
                 <p className="ml-[4px] text-[12px]">Student : 168</p>
               </div>
               <div className="flex justify-center items-center">
-                <img src="icons/cup.svg" width="16" />
+                <Image alt="cup" height="0" src="icons/cup.svg" width="16" />
                 <p className="ml-[4px] text-[12px]">Beginner</p>
               </div>
             </div>
@@ -158,7 +222,12 @@ function TopCourses() {
                   size="20"
                 />
               </div>
-              <img src="icons/star-two.svg" width="30" />
+              <Image
+                alt="star"
+                height="2"
+                src="icons/star-two.svg"
+                width="30"
+              />
             </div>
           </div>
         </div>

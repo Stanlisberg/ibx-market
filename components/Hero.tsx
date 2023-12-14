@@ -1,5 +1,6 @@
 import React from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import Image from "next/image";
 
 function Hero() {
   return (
@@ -21,11 +22,19 @@ function Hero() {
               Start course <span className="sm:contents hidden">now</span>
               <MdOutlineKeyboardArrowRight className="ml-2 mt-1" size="20" />
             </div>
-            <img src="icons/seven-nine.svg" width="43" className="ml-6 mt-8" />
-            <img
+            <Image
+              alt="seven-nine image"
+              src="icons/seven-nine.svg"
+              className="ml-6 mt-8"
+              width="43"
+              height="20"
+            />
+            <Image
+              alt="spring"
               src="icons/spring-arrow-yellow.svg"
               className="mt-10"
               width="80"
+              height="20"
             />
             <div className="w-[76px] h-9 px-3.5 py-2 origin-top-left rotate-[20deg] text-amber-500 bg-amber-500 bg-opacity-5 rounded-[50px] justify-start items-center gap-2 inline-flex absolute bottom-[70px] left-[240px] sm:left-[280px]">
               Booked
@@ -33,7 +42,13 @@ function Hero() {
           </div>
         </div>
         <div className="xl:w-[600px] mt-[60px] lg:mt-[0px]">
-          <img src="icons/woman-circle.svg" width="900" className="" />
+          <Image
+            alt="woman"
+            src="icons/woman-circle.svg"
+            width="900"
+            height="20"
+            className=""
+          />
         </div>
       </div>
     </>

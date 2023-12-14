@@ -1,9 +1,10 @@
 import React from "react";
+import Image from "next/image";
 
 function Newsletter() {
   return (
     <>
-      <div className="w-full border mt-[80px] pr-20 relative hidden xl:grid">
+      <div className="w-full mt-[80px] pr-20 relative hidden xl:grid">
         <div className="absolute left-[84px] top-12 ">
           <h1 className="text-zinc-950 text-[26px] font-black capitalize leading-[50px]">
             Find out about the latest courses with the
@@ -15,7 +16,7 @@ function Newsletter() {
             newsletter
           </h1>
         </div>
-        <img src="images/news-background.svg" />
+        <Image alt='news' src="images/news-background.svg" width='0'height='2' className='w-full'/>
         <div className="absolute right-[194px] top-[70px] w-[306px] py-2 px-6 bg-white rounded-xl shadow border border-zinc-100 justify-start items-center gap-4 inline-flex">
           <input
             type="text"
