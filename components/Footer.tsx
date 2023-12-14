@@ -177,7 +177,7 @@ function Footer() {
       </div>
       <div className="flex flex-col md:justify-between  bg-neutral-100 px-3 py-4 mt-9 capitalize text-[13px]">
         <div>Privacy Policy | terms & conditions</div>
-        <div>all copyright 2022 reserved</div>
+        <div>all copyright 2022 &#x00A9; reserved</div>
       </div>
     </div>
   );
