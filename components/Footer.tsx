@@ -3,7 +3,7 @@ import { GoDotFill } from "react-icons/go";
 
 function Footer() {
   return (
-    <div className="mt-[60px] xl:mt-[90px] sm:mx-[10px] md:mx-[10px] lg:mx-[10px] xl:mx-[80px] p-2 pb-4  bg-neutral-50 rounded-tl-[40px] rounded-tr-[40px]">
+    <div className="mt-[60px] xl:mt-[90px] sm:mx-[10px] md:mx-[10px] lg:mx-[10px] xl:mx-[80px] p-4 pb-4  bg-neutral-50 rounded-tl-[40px] rounded-tr-[40px]">
       <div className="justify-between items-center hidden xl:flex">
         <img src="images/footer-para.svg" width="940" />
         <div className="mr-7 text-center flex flex-col justify-center items-center">
