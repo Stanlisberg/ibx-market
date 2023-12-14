@@ -82,36 +82,36 @@ body {
  .page-num {
   padding: 4px 10px;
   cursor: pointer;
-  border: 1px solid chocolate;
+  border: 1px solid #9E5CF2;
   border-radius: 3px;
-  color:#e91e63;
+  color:#9E5CF2
 }
 
 .page-num:hover {
-  background-color: chocolate;
+  background-color:#9E5CF2;
   color: #fff;
 }
 
 .page {
   padding: 4px 10px;
   border-radius: 3px;
-  border: 1px solid chocolate;
-  color: chocolate;
+  border: 1px solid #9E5CF2;
+  color: #9E5CF2
 }
 
 .page:hover {
-  background-color: chocolate;
+  background-color:#9E5CF2;
   border-radius: 3px;
   color: #fff
 }
 
 .page-active {
-  background-color: chocolate;
+  background-color: #9E5CF2;
   color: #fff;
 }
 
 .break {
-  color: chocolate
+  color: #9E5CF2;
 }
 
 
