@@ -59,7 +59,7 @@ function Footer() {
               categories
             </p>
           </div>
-          <ul className="mt-3 ml-3 text-[14px] capitalize">
+          <ul className="mt-3 ml-3 text-[14px] capitalize text-zinc-950 text-opacity-75">
             <li>
               <a href="#">designing</a>
             </li>
@@ -105,7 +105,7 @@ function Footer() {
               quick access
             </p>
           </div>
-          <ul className="mt-3 ml-3 text-[14px] capitalize">
+          <ul className="mt-3 ml-3 text-[14px] capitalize text-zinc-950 text-opacity-75">
             <li>
               <a href="#">what we offer</a>
             </li>
@@ -151,7 +151,7 @@ function Footer() {
               new comment
             </p>
           </div>
-          <div className="mt-3 grid gap-2 capitalize">
+          <div className="mt-3 grid gap-2 capitalize text-stone-700 text-opacity-75">
             <div className="lg:w-[90%] w-full p-3 pl-3 bg-neutral-100 rounded-xl flex-col justify-start items-start inline-flex">
               <h1>ellsmartx</h1>
               <p>
@@ -187,7 +187,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:justify-between md:flex-row bg-neutral-100 px-3 py-4 mt-9 capitalize text-[13px]">
+      <div className="text-stone-700 text-opacity-75 flex flex-col md:justify-between md:flex-row bg-neutral-100 px-3 py-4 mt-9 capitalize text-[13px]">
         <div>Privacy Policy | terms & conditions</div>
         <div>all copyright 2022 &#x00A9; reserved </div>
       </div>

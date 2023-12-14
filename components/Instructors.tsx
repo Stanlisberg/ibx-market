@@ -7,13 +7,13 @@ function Instructors() {
     <>
       <div className="hidden xl:flex justify-between items-center mt-[120px] mx-[8px] sm:mx-[10px] md:mx-[10px] lg:mx-[10px] xl:mr-0 xl:ml-[80px]">
         <div className="w-[320px] h-[170px]">
-          <Image
+          {/* <Image
             alt="best"
             src="icons/best-instructor.svg"
             width="210"
             height="20"
             className="cursor-text"
-          />
+          /> */}
           <p className="mt-6 capitalize text-black text-opacity-75 text-[13px] font-normal leading-[20px] tracking-tight">
             At the academy we strive to bring together the best professors for
             the best courses
@@ -120,7 +120,7 @@ function Instructors() {
 
       {/* ---------------------------Mobile view --------------------------------- */}
       <div className="flex flex-col justify-between items center xl:hidden">
-        <div className="h-[170px] mx-auto px-[8px] w-full mt-[60px]">
+        <div className="h-[170px] px-[8px] w-full mt-[60px] mx-1">
           <Image
             alt="best"
             src="icons/best-instructor.svg"
@@ -150,8 +150,8 @@ function Instructors() {
             </div>
           </div>
         </div>
-        <div className=" px-2 min-h-[100vh] grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3 mt-[50px]">
-          <div className=" px-[8px] pt-[8px] pb-[40px] bg-neutral-100 border border-zinc-50 rounded-xl w-full">
+        <div className=" text-stone-700 px-2 min-h-[100vh] grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3 mt-[50px]">
+          <div className=" px-[8px] pt-[8px] pb-[10px] bg-neutral-100 border border-zinc-50 rounded-xl w-full">
             <Image
               alt="instructor-one"
               height="20"
@@ -159,12 +159,12 @@ function Instructors() {
               width="150"
               className="w-full"
             />
-            <div className="justify-between items-center flex mb-[-12px]">
+            <div className="justify-between items-center flex mb-[-12px] text-stone-700">
               <p className="text-[15px] font-medium">Jon kantner</p>
               <p className="text-[11px]">Designer</p>
             </div>
           </div>
-          <div className="px-[8px] pt-[8px] pb-[40px] bg-neutral-100 border border-zinc-50 rounded-xl w-full">
+          <div className="px-[8px] pt-[8px] pb-[20px] bg-neutral-100 border border-zinc-50 rounded-xl w-full">
             <Image
               alt="instructor-two"
               height="20"
@@ -177,7 +177,7 @@ function Instructors() {
               <p className="text-[11px]">Seo</p>
             </div>
           </div>
-          <div className=" px-[8px] pt-[8px] pb-[40px] bg-neutral-100 border border-zinc-50 rounded-xl w-full">
+          <div className=" px-[8px] pt-[8px] pb-[20px] bg-neutral-100 border border-zinc-50 rounded-xl w-full">
             <Image
               alt="instructor-three"
               height="20"
@@ -190,7 +190,7 @@ function Instructors() {
               <p className="text-[11px]">Composer</p>
             </div>
           </div>
-          <div className=" px-[8px] pt-[8px] pb-[40px] bg-neutral-100 border border-zinc-50 rounded-xl w-full ">
+          <div className=" px-[8px] pt-[8px] pb-[20px] bg-neutral-100 border border-zinc-50 rounded-xl w-full ">
             <Image
               alt="four"
               src="images/instructor-four.svg"
@@ -203,7 +203,7 @@ function Instructors() {
               <p className="text-[11px]">Photographer</p>
             </div>
           </div>
-          <div className=" px-[8px] pt-[8px] pb-[40px]  bg-neutral-100 border border-zinc-50 rounded-xl  w-full">
+          <div className=" px-[8px] pt-[8px] pb-[20px]  bg-neutral-100 border border-zinc-50 rounded-xl  w-full">
             <Image
               alt="five"
               src="images/instructor-five.svg"
@@ -216,7 +216,7 @@ function Instructors() {
               <p className="text-[11px]">Programmer</p>
             </div>
           </div>
-          <div className=" px-[8px] pt-[8px] pb-[40px] bg-neutral-100 border border-zinc-50 rounded-xl w-full">
+          <div className=" px-[8px] pt-[8px] pb-[10px] bg-neutral-100 border border-zinc-50 rounded-xl w-full">
             <Image
               alt="instru six"
               height="20"
