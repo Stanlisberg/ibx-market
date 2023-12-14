@@ -90,7 +90,7 @@ function YourCourses() {
                 </div>
                 <div className="hover:bg-zinc-700 px-[4px]capitalize w-[95px] mt-5 cursor-pointer py-[4px] bg-zinc-950 text-white text-sm rounded-[10px] justify-center items-center inline-flex">
                   <p className="text-center text-white text-[12px] font-medium capitalize leading-tight">
-                    Let's Go
+                    Let&apos;s Go
                   </p>
                   <MdOutlineKeyboardArrowRight
                     className="ml-2 mt-1"
@@ -173,7 +173,7 @@ function YourCourses() {
                 </div>
                 <div className="hover:bg-zinc-700 px-[4px]capitalize w-[95px] mt-5 cursor-pointer py-[4px] bg-zinc-950 text-white text-sm rounded-[10px] justify-center items-center inline-flex">
                   <p className="text-center text-white text-[12px] font-medium capitalize leading-tight">
-                    Let's Go
+                    Let&apos;s Go
                   </p>
                   <MdOutlineKeyboardArrowRight
                     className="ml-2 mt-1"
@@ -260,7 +260,7 @@ function YourCourses() {
                 </div>
                 <div className="hover:bg-zinc-700 px-[4px]capitalize w-[95px] mt-5 cursor-pointer py-[4px] bg-zinc-950 text-white text-sm rounded-[10px] justify-center items-center inline-flex">
                   <p className="text-center text-white text-[12px] font-medium capitalize leading-tight">
-                    Let's Go
+                    Let&apos;s Go
                   </p>
                   <MdOutlineKeyboardArrowRight
                     className="ml-2 mt-1"
@@ -341,7 +341,7 @@ function YourCourses() {
                 </div>
                 <div className=" hover:bg-zinc-700 px-[4px]capitalize w-[95px] mt-5 cursor-pointer py-[4px] bg-zinc-950 text-white text-sm rounded-[10px] justify-center items-center inline-flex">
                   <p className="text-center text-white text-[12px] font-medium capitalize leading-tight">
-                    Let's Go
+                    Let&apos;s Go
                   </p>
                   <MdOutlineKeyboardArrowRight
                     className="ml-2 mt-1"

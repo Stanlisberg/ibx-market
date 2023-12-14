@@ -8,7 +8,7 @@ import { IoIosArrowForward } from "react-icons/io";
 function TopCourses() {
   return (
     <>
-      <div className="mt-[60px] xl:mt-[90px] sm:mx-[10px] md:mx-[10px] lg:mx-[10px] xl:mx-[80px]">
+      <div className="mt-[60px] mx-2 xl:mt-[90px] sm:mx-[10px] md:mx-[10px] lg:mx-[10px] xl:mx-[80px]">
         <div className="flex justify-between items-center pl-2 pr-2 xl:pr-0">
           <div className="flex justify-center items-center">
             <GoDotFill size="5" color="purple" className="mt-[3px]" />{" "}

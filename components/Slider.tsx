@@ -15,7 +15,6 @@ function Slider() {
           width="32"
           className="bg-neutral-200 rounded-[5px]"
          />
-        {/* <li className='px-2 bg-emerald-100 py-1 rounded-[5px]'><a href='#'>< HiCodeBracket size='22' color='009E68'/></a></li> */}
         <li>
           <a href="#" className="bg-neutral-200 py-1 px-2 rounded-[5px]">
             python
@@ -27,8 +26,8 @@ function Slider() {
         <li className="bg-neutral-200 py-1 px-2 rounded-[5px]">
           <a href="#">unity</a>
         </li>
-        {/* <li className='ml-10 bg-neutral-200 py-1 px-2 rounded-[5px]'><a href='#'><GiCeilingLight size='22' color='9E5CF2'/></a></li> */}
         <img
+          alt='dot'
           src="icons/light-dot.svg"
           width="32"
           className="bg-neutral-200 rounded-[5px]"
@@ -40,6 +39,7 @@ function Slider() {
           <a href="#">vector</a>
         </li>
         <img
+          alt='video'
           src="icons/video-dot.svg"
           width="32"
           className="bg-neutral-200 rounded-[5px]"

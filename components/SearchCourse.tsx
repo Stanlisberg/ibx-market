@@ -38,7 +38,7 @@ function SearchCourse() {
         <div className="text-stone-700 text-opacity-75 text-sm font-medium capitalize ml-[10px] mt-[20px] md:mt-[0px]">
           Or view the following courses...
         </div>
-        <img
+        <Image
           alt='arrow'
           src="icons/spring-arrow-green.svg"
           width="90"

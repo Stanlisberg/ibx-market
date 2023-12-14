@@ -65,7 +65,7 @@ function NewCourses() {
           </li>
           <li className="bg-neutral-100 rounded-[5px] px-2 py-[6px]">
             {" "}
-            <img src="icons/funnel.svg" className="" width="15" />{" "}
+            <Image alt='funnel' height='0' src="icons/funnel.svg" className="" width="15" />{" "}
           </li>
         </ul>
       </div>
@@ -145,7 +145,7 @@ function NewCourses() {
                     size="20"
                   />
                 </div>
-                <img src="icons/star-four.svg" width="30" />
+                <Image alt='four' height='0' src="icons/star-four.svg" width="30" />
               </div>
             </div>
           ))}

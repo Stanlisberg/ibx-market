@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <div className="mt-[60px] xl:mt-[90px] sm:mx-[10px] md:mx-[10px] lg:mx-[10px] xl:mx-[80px] p-4 pb-4  bg-neutral-50 rounded-tl-[40px] rounded-tr-[40px]">
+    <div className="mt-[60px] mx-2 xl:mt-[90px] sm:mx-[10px] md:mx-[10px] lg:mx-[10px] xl:mx-[80px] p-4 pb-4  bg-neutral-50 rounded-tl-[40px] rounded-tr-[40px]">
       <div className="justify-between items-center hidden xl:flex">
         <Image
           alt="footer image"
@@ -12,9 +12,9 @@ function Footer() {
           width="940"
           height="20"
         />
-        <div className="mr-7 text-center flex flex-col justify-center items-center">
+        <div className=" text-center flex flex-col justify-center items-center">
           <Image alt="logo image" src="icons/logo.svg" width="60" height="20" />
-          <h1 className="text-zinc-950 text-[28px] font-black uppercase">
+          <h1 className="text-zinc-950 text-[25px] font-black uppercase">
             Academy
           </h1>
         </div>
@@ -22,7 +22,7 @@ function Footer() {
 
       {/*---------mobile view-----------*/}
       <div className="xl:hidden">
-        <div className=" bg-[#F5F2FA] w-full h-[270px] px-3 text-center flex justify-center items-center">
+        <div className=" bg-[#F5F2FA] w-full h-[270px] px-3 text-center flex justify-center items-center rounded-tl-[30px] rounded-tr-[30px]">
           <p className="text-zinc-950 text-[14px] font-medium text-start capitalize leading-[30px]">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore
             unde maxime quam, aperiam consequatur mollitia aspernatur. Veniam
