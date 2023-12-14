@@ -14,7 +14,7 @@ import Footer from "./Footer";
 function Home() {
   return (
     <div className="relative min-h-screen pb-4">
-       <Navbar />
+      <Navbar />
       <div className="py-5 mx-[8px] sm:mx-[10px] md:mx-[10px] lg:mx-[10px] xl:mx-[80px]">
         {/* <Navbar /> */}
         <Slider />

@@ -13,22 +13,18 @@ const options = {
   },
 };
 
-export const fetchBooks = createAsyncThunk(
-  "book/fetchData",
-  async () => {
-    try {
-        const response = await fetch(`https://freetestapi.com/api/v1/books`,);
-        const data = await response.json();
-        return data;
+export const fetchBooks = createAsyncThunk("book/fetchData", async () => {
+  try {
+    const response = await fetch(`https://freetestapi.com/api/v1/books`);
+    const data = await response.json();
+    return data;
 
-        console.log(data)
-
-    } catch (error) {
-      console.error("Error fetching books:", error);
-      throw error;
-    }
+    console.log(data);
+  } catch (error) {
+    console.error("Error fetching books:", error);
+    throw error;
   }
-);
+});
 
 const initialState: BookInter = {
   bookData: [],

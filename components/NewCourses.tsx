@@ -83,22 +83,32 @@ function NewCourses() {
               />
 
               <p className="text-zinc-950 text-[16px] font-bold capitalize">
-                Author: <span className='text-[13px] font-medium'>{item.author}</span>
+                Author:{" "}
+                <span className="text-[13px] font-medium">{item.author}</span>
               </p>
               <p className="text-zinc-950 text-[16px]] font-bold capitalize">
-                Title: <span className='text-[13px] font-medium'>{item.title}</span>
+                Title:{" "}
+                <span className="text-[13px] font-medium">{item.title}</span>
               </p>
               <p className="text-zinc-950 text-[16px] font-bold capitalize">
-                Desc: <span className='text-[13px] font-medium'>{item.description}</span>
+                Desc:{" "}
+                <span className="text-[13px] font-medium">
+                  {item.description}
+                </span>
               </p>
               <p className="text-zinc-950 text-[16px] font-bold capitalize">
-                Year: <span className='text-[13px] font-medium'>{item.publication_year}</span>
+                Year:{" "}
+                <span className="text-[13px] font-medium">
+                  {item.publication_year}
+                </span>
               </p>
               <p className="text-zinc-950 text-[16px] font-bold capitalize">
-                Book Id: <span className='text-[13px] font-medium'> {item.id}</span>
+                Book Id:{" "}
+                <span className="text-[13px] font-medium"> {item.id}</span>
               </p>
               <p className="text-zinc-950 text-[16px] font-bold capitalize">
-                Genre: <span className='text-[13px] font-medium'>{item.genre[0]}</span>
+                Genre:{" "}
+                <span className="text-[13px] font-medium">{item.genre[0]}</span>
               </p>
               <div className="flex justify-between mt-4 flex-wrap gap-[1px] text-zinc-950 text-opacity-75 text-[12px] font-medium capitalize">
                 <div className="flex justify-center items-center">
@@ -147,7 +157,6 @@ function NewCourses() {
 }
 
 export default NewCourses;
-
 
 
 

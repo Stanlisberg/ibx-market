@@ -1,9 +1,6 @@
 import React from "react";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
-import { GiCeilingLight } from "react-icons/gi";
-import { HiCodeBracket } from "react-icons/hi2";
-import { BsCameraVideo } from "react-icons/bs";
 
 function Slider() {
   return (

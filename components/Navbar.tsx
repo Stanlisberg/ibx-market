@@ -1,12 +1,11 @@
-'use client'
+"use client";
 
 import React from "react";
-import { useState } from 'react'
+import { useState } from "react";
 import { HiOutlineMenu } from "react-icons/hi";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { FaTimes } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
-
 
 function Navbar() {
   const [navIcon, setNavIcon] = useState(true);
@@ -21,15 +20,23 @@ function Navbar() {
             </h1>
           </div>
           <ul className="text-sm font-medium hidden xl:contents text-zinc-950 text-opacity-50 cursor-pointer">
-            <li className="ml-10 px-3 py-[6px] hover:bg-neutral-100 hover:rounded-[10px]">Categories</li>
+            <li className="ml-10 px-3 py-[6px] hover:bg-neutral-100 hover:rounded-[10px]">
+              Categories
+            </li>
             <MdOutlineKeyboardArrowDown
               size="17"
               className="mt-[3px]"
               color="grey"
             />
-            <li className="px-3 py-[6px] hover:bg-neutral-100 hover:rounded-[10px] mx-[1px]">Teach</li>
-            <li className="px-3 py-[6px] hover:bg-neutral-100 hover:rounded-[10px] mx-[1px]">Contact Us</li>
-            <li className="px-3 py-[6px] hover:bg-neutral-100 hover:rounded-[10px] mx-[1px]">About Us</li>
+            <li className="px-3 py-[6px] hover:bg-neutral-100 hover:rounded-[10px] mx-[1px]">
+              Teach
+            </li>
+            <li className="px-3 py-[6px] hover:bg-neutral-100 hover:rounded-[10px] mx-[1px]">
+              Contact Us
+            </li>
+            <li className="px-3 py-[6px] hover:bg-neutral-100 hover:rounded-[10px] mx-[1px]">
+              About Us
+            </li>
           </ul>
         </div>
         <div className="flex items-center">
@@ -46,11 +53,7 @@ function Navbar() {
             />
           </div>
           <div className="flex text-sm items-center mr-8 xl:mr-8 md:border-l h-8 w-[120px] md:w-[230px] lg:w-[180px] border-zinc-200 pl-[40px] py-[0px]">
-            <img
-              src="icons/dash-image.png"
-              width="33"
-              className="rounded-md"
-            />
+            <img src="icons/dash-image.png" width="33" className="rounded-md" />
             <span className="text-sm ml-2 flex md:grid items-center">
               <p className="text-zinc-950 text-[14px] leading-3 font-medium">
                 Behzad <span className="hidden md:contents">Paschei</span>
@@ -69,27 +72,26 @@ function Navbar() {
           </div>
         </div>
         <div className="md:hidden mt-1 block cursor-pointer z-[10]">
-            {navIcon === true ? (
-              <GiHamburgerMenu
-                size="32"
-                color="#9E5CF2"
-                onClick={() => setNavIcon(!navIcon)}
-              />
-            ) : (
-              <FaTimes
-                size="32"
-                color="#9E5CF2"
-                onClick={() => setNavIcon(!navIcon)}
-                className='z-100'
-              />
-            )}
-          </div>
+          {navIcon === true ? (
+            <GiHamburgerMenu
+              size="32"
+              color="#9E5CF2"
+              onClick={() => setNavIcon(!navIcon)}
+            />
+          ) : (
+            <FaTimes
+              size="32"
+              color="#9E5CF2"
+              onClick={() => setNavIcon(!navIcon)}
+              className="z-100"
+            />
+          )}
+        </div>
         <div
           className={
             navIcon === false
-            ? " fixed overflow-y-hidden md:hidden flex flex-col ease-in duration-700 top-[65px] left-0 w-full h-full px-4 py-7 bg-purple-500 z-10 opacity-[0.9]"
-            : "  fixed top-17 h-full left-[-100%] ease-in duration-700"
-        
+              ? " fixed overflow-y-hidden md:hidden flex flex-col ease-in duration-700 top-[65px] left-0 w-full h-full px-4 py-7 bg-purple-500 z-10 opacity-[0.9]"
+              : "  fixed top-17 h-full left-[-100%] ease-in duration-700"
           }
         >
           <ul className="w-full p-4 font-medium text-[18px]">
@@ -101,7 +103,7 @@ function Navbar() {
             </li>
 
             <li
-              className='border-b border-black py-6 cursor-pointer text-black'
+              className="border-b border-black py-6 cursor-pointer text-black"
               onClick={() => setNavIcon(!navIcon)}
             >
               Teach

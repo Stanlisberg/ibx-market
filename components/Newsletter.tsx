@@ -29,7 +29,7 @@ function Newsletter() {
       </div>
 
       {/* ------------------Mobile view------------------ */}
-      <div className='xl:hidden'>
+      <div className="xl:hidden">
         <div className=" bg-[#F6F7FE] w-full h-[220px] mt-[60px] px-3 text-center flex justify-center items-center">
           <h1 className="text-zinc-950 text-[26px] font-black capitalize leading-[40px]">
             Find out about the latest courses with the
