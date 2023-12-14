@@ -171,7 +171,7 @@ function Footer() {
             <div className="lg:w-[90%] w-full p-3 pl-3 bg-neutral-100 rounded-xl flex-col justify-start items-start  inline-flex">
               <h1>ellsmartx</h1>
               <p>
-                you were stunning today, jan! 💗 great match
+                you were stunning today, jan! 💗 great match.
                 <span className="hidden lg:contents">...</span>{" "}
                 <span className="lg:hidden">👍🏽👍🏽</span>
               </p>
