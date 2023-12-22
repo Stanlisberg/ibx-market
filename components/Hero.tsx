@@ -6,7 +6,7 @@ function Hero() {
   return (
     <>
       <div className="hero mt-[60px] flex flex-col justify-center items-center lg:justify-between">
-        <div className="sm:w-[600px] lg:px-0 lg:mb-32 border-2 border-black flex justify-center items- lg:justify-start">
+        <div className="sm:w-[600px] lg:px-0 lg:mb-32 flex justify-center items- lg:justify-start">
           <div>
             <div className="text-black text-[27px] text-center sm:text-start font-black capitalize leading-[45px]">
               <p>🙌 Hello friends</p>
