@@ -6,7 +6,7 @@ function Slider() {
   return (
     <div className="mt-[20px] overflow-hidden relative">
       <div className="lg:hidden arrow-left absolute h-full w-[100px] top-0 flex items-center">
-        <IoIosArrowBack size="20" className="" />
+        <IoIosArrowBack size="20" className="" color='black'/>
       </div>
       <ul className="no-scrollbar gap-[40px] flex whitespace-nowrap overflow-x-scroll items-center text-zinc-950 text-[13px] font-medium capitalize">
         <img
@@ -57,6 +57,7 @@ function Slider() {
         <li className="hidden lg:contents">
           <a href="#" className="">
             <IoIosArrowForward
+             color='black'
               size="20"
               className="mt-[4px] mr-[8px] arrow rounded-[50%] hover:bg-neutral-300 p-[2px]"
             />
@@ -64,7 +65,7 @@ function Slider() {
         </li>
       </ul>
       <div className="lg:hidden arrow-right absolute h-full top-0 flex items-center justify-end w-[100px] right-0">
-        <IoIosArrowForward size="20" />
+        <IoIosArrowForward size="20" color='black' />
       </div>
     </div>
   );

@@ -70,6 +70,7 @@ function Navbar() {
               <MdOutlineKeyboardArrowDown
                 size="17"
                 className="md:hidden mt-[3px] ml-[5px]"
+                color="black"
               />
               <p className="hidden md:grid text-zinc-950 text-opacity-50 text-[10px] font-medium">
                 Ui & Ux designer
