@@ -162,7 +162,7 @@ function Instructors() {
               className="w-full"
             />
             <div className="justify-between items-center flex mb-[-12px] mt-5 text-stone-700">
-              <p className="text-[16px] font-medium">Jon kantner</p>
+              <p className="text-[14px] font-medium">Jon kantner</p>
               <p className="text-[11px]">Designer</p>
             </div>
           </div>
@@ -175,7 +175,7 @@ function Instructors() {
               className="w-full"
             />
             <div className="justify-between items-center flex mb-[-6px] mt-5">
-              <p className="text-[16px] font-medium">Debbie LaChusa</p>
+              <p className="text-[14px] font-medium">Debbie LaChusa</p>
               <p className="text-[11px]">Seo</p>
             </div>
           </div>
