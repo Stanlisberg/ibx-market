@@ -16,14 +16,20 @@ function Newsletter() {
             newsletter
           </h1>
         </div>
-        <Image alt='news' src="images/news-background.svg" width='0'height='2' className='w-full'/>
+        <Image
+          alt="news"
+          src="images/news-background.svg"
+          width="0"
+          height="2"
+          className="w-full"
+        />
         <div className="absolute right-[194px] top-[70px] w-[306px] py-2 px-6 bg-white rounded-xl shadow border border-zinc-100 justify-start items-center gap-4 inline-flex">
           <input
             type="text"
             placeholder="Email Address..."
             className="outline-none w-[286px] text-zinc-950 text-opacity-25 text-[13px] font-medium "
           />
-          <button className=" hover:scale-90 ease-in-out duration-300 text-center cursor-pointer text-white text-[12px] uppercase font-medium leading-tight bg-zinc-950 py-[6px] px-[14px] rounded-[8px] justify-start items-center gap-2 flex">
+          <button className=" hover:scale-90 ease-in-out duration-300 text-center cursor-pointer text-white text-[12px] uppercase font-medium leading-tight bg-zinc-950 py-[10px] px-[18px] rounded-[8px] justify-start items-center gap-2 flex">
             Submit
           </button>
         </div>
@@ -48,7 +54,7 @@ function Newsletter() {
               placeholder="Email Address..."
               className="outline-none w-[286px] text-zinc-950 text-opacity-25 text-[13px] font-medium "
             />
-            <button className="hover:scale-90 ease-in-out duration-300 text-center cursor-pointer text-white text-[12px] uppercase font-medium leading-tight bg-zinc-950 py-[6px] px-[14px] rounded-[8px] justify-start items-center gap-2 flex">
+            <button className="hover:scale-90 ease-in-out duration-300 text-center cursor-pointer text-white text-[12px] uppercase font-medium leading-tight bg-zinc-950 py-[10px] px-[20px] rounded-[8px] justify-start items-center gap-2 flex">
               Submit
             </button>
           </div>

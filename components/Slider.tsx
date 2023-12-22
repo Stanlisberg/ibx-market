@@ -9,12 +9,12 @@ function Slider() {
         <IoIosArrowBack size="20" className="" />
       </div>
       <ul className="no-scrollbar gap-[40px] flex whitespace-nowrap overflow-x-scroll items-center text-zinc-950 text-[13px] font-medium capitalize">
-          <img
-          alt='code'
+        <img
+          alt="code"
           src="icons/code-dot.svg"
           width="32"
           className="bg-neutral-200 rounded-[5px]"
-         />
+        />
         <li>
           <a href="#" className="bg-neutral-200 py-1 px-2 rounded-[5px]">
             python
@@ -27,7 +27,7 @@ function Slider() {
           <a href="#">unity</a>
         </li>
         <img
-          alt='dot'
+          alt="dot"
           src="icons/light-dot.svg"
           width="32"
           className="bg-neutral-200 rounded-[5px]"
@@ -39,7 +39,7 @@ function Slider() {
           <a href="#">vector</a>
         </li>
         <img
-          alt='video'
+          alt="video"
           src="icons/video-dot.svg"
           width="32"
           className="bg-neutral-200 rounded-[5px]"

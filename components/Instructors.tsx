@@ -19,10 +19,12 @@ function Instructors() {
             the best courses
           </p>
           <div className="flex mt-5 relative">
-            <div className=" hover:scale-90 ease-in-out duration-300 w-[120px] md:w-[135px] px-[4px] capitalize cursor-pointer py-[8px] bg-zinc-950 text-white text-sm rounded-[10px] mt-7 mb-[20px] justify-center items-center inline-flex">
-              All <span className="sm:contents hidden">Instructors</span>
-              <MdOutlineKeyboardArrowRight className="ml-2 mt-1" size="20" />
-            </div>
+            <button className=" hover:scale-90 ease-in-out duration-300 py-[10px] px-2 md:px-[7px] md:py-[13px] capitalize cursor-pointer bg-zinc-950 text-white text-[13px] rounded-[8px] mt-7 mb-[20px] justify-center items-center flex">
+              <p>
+                All <span className="sm:contents hidden">Instructors</span>
+              </p>
+              <MdOutlineKeyboardArrowRight className="ml-2" size="20" />
+            </button>
             <Image
               alt="spring-arrow"
               src="icons/spring-arrow-purple.svg"
@@ -150,8 +152,8 @@ function Instructors() {
             </div>
           </div>
         </div>
-        <div className=" text-stone-700 px-2 min-h-[100vh] grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3 mt-[50px]">
-          <div className=" px-[8px] pt-[8px] pb-[10px] bg-neutral-100 border border-zinc-50 rounded-xl w-full">
+        <div className=" text-stone-700 px-2 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3 mt-[50px]">
+          <div className=" px-[8px] pt-[8px] pb-[30px] bg-neutral-100 border border-zinc-50 rounded-xl w-full">
             <Image
               alt="instructor-one"
               height="20"
@@ -159,12 +161,12 @@ function Instructors() {
               width="150"
               className="w-full"
             />
-            <div className="justify-between items-center flex mb-[-12px] text-stone-700">
-              <p className="text-[15px] font-medium">Jon kantner</p>
+            <div className="justify-between items-center flex mb-[-12px] mt-5 text-stone-700">
+              <p className="text-[16px] font-medium">Jon kantner</p>
               <p className="text-[11px]">Designer</p>
             </div>
           </div>
-          <div className="px-[8px] pt-[8px] pb-[20px] bg-neutral-100 border border-zinc-50 rounded-xl w-full">
+          <div className="px-[8px] pt-[8px] pb-[30px] bg-neutral-100 border border-zinc-50 rounded-xl w-full">
             <Image
               alt="instructor-two"
               height="20"
@@ -172,12 +174,12 @@ function Instructors() {
               width="150"
               className="w-full"
             />
-            <div className="justify-between items-center flex mb-[-12px]">
-              <p className="text-[15px] font-medium">Debbie LaChusa</p>
+            <div className="justify-between items-center flex mb-[-6px] mt-5">
+              <p className="text-[16px] font-medium">Debbie LaChusa</p>
               <p className="text-[11px]">Seo</p>
             </div>
           </div>
-          <div className=" px-[8px] pt-[8px] pb-[20px] bg-neutral-100 border border-zinc-50 rounded-xl w-full">
+          <div className=" px-[8px] pt-[8px] pb-[30px] bg-neutral-100 border border-zinc-50 rounded-xl w-full">
             <Image
               alt="instructor-three"
               height="20"
@@ -185,12 +187,12 @@ function Instructors() {
               width="150"
               className="w-full"
             />
-            <div className="justify-between items-center flex mb-[-12px]">
-              <p className="text-[15px] font-medium">Edwin Diaz</p>
+            <div className="justify-between items-center flex mb-[-12px] mt-5">
+              <p className="text-[14px] font-medium">Edwin Diaz</p>
               <p className="text-[11px]">Composer</p>
             </div>
           </div>
-          <div className=" px-[8px] pt-[8px] pb-[20px] bg-neutral-100 border border-zinc-50 rounded-xl w-full ">
+          <div className=" px-[8px] pt-[8px] pb-[30px] bg-neutral-100 border border-zinc-50 rounded-xl w-full ">
             <Image
               alt="four"
               src="images/instructor-four.svg"
@@ -198,12 +200,12 @@ function Instructors() {
               height="20"
               className="w-full"
             />
-            <div className="justify-between items-center flex mb-[-12px]">
-              <p className="text-[15px] font-medium">Cassie Evans</p>
+            <div className="justify-between items-center flex mb-[-12px] mt-5">
+              <p className="text-[14px] font-medium">Cassie Evans</p>
               <p className="text-[11px]">Photographer</p>
             </div>
           </div>
-          <div className=" px-[8px] pt-[8px] pb-[20px]  bg-neutral-100 border border-zinc-50 rounded-xl  w-full">
+          <div className=" px-[8px] pt-[8px] pb-[30px]  bg-neutral-100 border border-zinc-50 rounded-xl  w-full">
             <Image
               alt="five"
               src="images/instructor-five.svg"
@@ -211,21 +213,21 @@ function Instructors() {
               height="20"
               className="w-full"
             />
-            <div className="justify-between items-center flex mb-[-12px]">
-              <p className="text-[15px] font-medium">Erich Andreas</p>
+            <div className="justify-between items-center flex mb-[-12px] mt-5">
+              <p className="text-[14px] font-medium">Erich Andreas</p>
               <p className="text-[11px]">Programmer</p>
             </div>
           </div>
-          <div className=" px-[8px] pt-[8px] pb-[10px] bg-neutral-100 border border-zinc-50 rounded-xl w-full">
+          <div className=" px-[8px] pt-[8px] pb-[30px] bg-neutral-100 border border-zinc-50 rounded-xl w-full">
             <Image
               alt="instru six"
               height="20"
               src="images/instructor-six.svg"
-              width="300"
+              width="150"
               className="w-full"
             />
-            <div className="justify-between items-center flex mb-[-12px]">
-              <p className="text-[15px] font-medium">Jason Allen</p>
+            <div className="justify-between items-center flex mb-[-12px] mt-5">
+              <p className="text-[14px] font-medium">Jason Allen</p>
               <p className="text-[11px]">Accounting</p>
             </div>
           </div>

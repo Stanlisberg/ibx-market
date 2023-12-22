@@ -14,9 +14,9 @@ function YourCourses() {
               Your Courses
             </p>
           </div>
-          <div className="hover:bg-slate-100 pl-5 pr-3 py-[6px] mt-[6px] bg-neutral-100 cursor-pointer rounded-[10px] justify-start items-center gap-2 inline-flex text-center text-stone-700 text-opacity-75 text-sm font-medium capitalize leading-tight">
+          <button className="hover:bg-slate-100 pl-5 pr-5 py-[8px] mt-[6px] bg-neutral-100 cursor-pointer rounded-[8px] justify-start items-center gap-2 flex text-center text-stone-700 text-opacity-75 text-sm font-medium capitalize leading-tight">
             See all
-          </div>
+          </button>
         </div>
         <div className="grid w-[100%] grid-cols-1 gap-4 xl:grid-cols-2 mt-[30px]">
           <div className="flex flex-col xl:flex-row gap-3 mx-2 xl:mx-0 px-[8px] py-2 bg-neutral-100 border border-zinc-100 rounded-xl">
@@ -28,7 +28,7 @@ function YourCourses() {
               className="width-[50%] w-full xl:w-[50%]"
             />
             <div className="my-2">
-              <p className="text-zinc-950 text-[13px] font-medium capitalize">
+              <p className="text-zinc-950 text-[16px] lg:text-[13px] font-semibold capitalize">
                 google ads training 2021: profit with pay
               </p>
               <div className="flex justify-between mt-4 flex-wrap gap-[1px] text-zinc-950 text-opacity-75 text-[12px] font-medium capitalize">
@@ -39,7 +39,9 @@ function YourCourses() {
                     src="icons/lesson.svg"
                     width="13"
                   />
-                  <p className="ml-[4px] text-[12px]">lesson : 6</p>
+                  <p className="ml-[4px] text-[14px] lg:text-[12px]">
+                    lesson : 6
+                  </p>
                 </div>
                 <div className="flex justify-center items-center">
                   <Image
@@ -48,11 +50,13 @@ function YourCourses() {
                     src="icons/student.svg"
                     width="13"
                   />
-                  <p className="ml-[4px] text-[12px]">Student : 198</p>
+                  <p className="ml-[4px] text-[14px] lg:text-[12px]">
+                    Student : 198
+                  </p>
                 </div>
                 <div className="flex justify-center items-center">
                   <Image alt="cup" height="0" src="icons/cup.svg" width="16" />
-                  <p className="ml-[4px] text-[12px]">Average</p>
+                  <p className="ml-[4px] text-[14px] lg:text-[12px]">Average</p>
                 </div>
               </div>
               <div>
@@ -77,26 +81,23 @@ function YourCourses() {
                   <Image
                     alt="small"
                     src="images/small-one.svg"
-                    width="33"
+                    width="40"
                     height="0"
                     className="rounded-[10px]"
                   />
-                  <div className="text-stone-700 text-[12px] font-medium leading-1 ml-2 tracking-tight">
+                  <div className="text-stone-700 text-[15px] lg:text-[12px] font-medium leading-1 ml-2 tracking-tight">
                     <h1>Jon katner</h1>
                     <p className="text-stone-700 text-opacity-75 text-[10px] font-normal tracking-tight">
                       SEO
                     </p>
                   </div>
                 </div>
-                <div className="hover:bg-zinc-700 px-[4px]capitalize w-[95px] mt-5 cursor-pointer py-[4px] bg-zinc-950 text-white text-sm rounded-[10px] justify-center items-center inline-flex">
+                <button className="hover:bg-zinc-700 capitalize px-[13px] md:px-[12px] md:py-[8px] py-[8px] mt-5 cursor-pointer bg-zinc-950 text-white text-sm rounded-[8px] justify-center items-center flex">
                   <p className="text-center text-white text-[12px] font-medium capitalize leading-tight">
                     Let&apos;s Go
                   </p>
-                  <MdOutlineKeyboardArrowRight
-                    className="ml-2 mt-1"
-                    size="20"
-                  />
-                </div>
+                  <MdOutlineKeyboardArrowRight className="ml-2" size="20" />
+                </button>
               </div>
             </div>
           </div>
@@ -109,7 +110,7 @@ function YourCourses() {
               className="width-[50%] w-full xl:w-[50%]"
             />
             <div className="my-2">
-              <p className="text-zinc-950 text-[13px] font-medium capitalize">
+              <p className="text-zinc-950 text-[16px] lg:text-[13px] font-semibold capitalize">
                 ASO & Mobile App Marketing: monetize
                 <span className="xl:contents hidden">...</span>
                 <span className="xl:hidden contents"> Your App</span>
@@ -122,7 +123,9 @@ function YourCourses() {
                     height="0"
                     width="13"
                   />
-                  <p className="ml-[4px] text-[12px]">lesson : 6</p>
+                  <p className="ml-[4px] text-[14px] lg:text-[12px]">
+                    lesson : 6
+                  </p>
                 </div>
                 <div className="flex justify-center items-center">
                   <Image
@@ -131,11 +134,13 @@ function YourCourses() {
                     height="0"
                     width="13"
                   />
-                  <p className="ml-[4px] text-[12px]">Student : 198</p>
+                  <p className="ml-[4px] text-[14px] lg:text-[12px]">
+                    Student : 198
+                  </p>
                 </div>
                 <div className="flex justify-center items-center">
                   <Image alt="cup" src="icons/cup.svg" height="0" width="16" />
-                  <p className="ml-[4px] text-[12px]">Advance</p>
+                  <p className="ml-[4px] text-[14px] lg:text-[12px]">Advance</p>
                 </div>
               </div>
               <div>
@@ -144,7 +149,7 @@ function YourCourses() {
                   height="0"
                   width="0"
                   src="icons/point-two.svg"
-                  className="mt-4 width-full"
+                  className="mt-4 w-full"
                 />
               </div>
               <div className="flex justify-between items-center mt-2">
@@ -160,26 +165,23 @@ function YourCourses() {
                   <Image
                     alt="small"
                     src="images/small-two.svg"
-                    width="33"
+                    width="40"
                     height="0"
                     className="rounded-[10px]"
                   />
-                  <div className="text-stone-700 text-[12px] font-medium leading-1 ml-2 tracking-tight">
+                  <div className="text-stone-700 text-[15px] lg:text-[12px] font-medium leading-1 ml-2 tracking-tight">
                     <h1>Jon katner</h1>
                     <p className="text-stone-700 text-opacity-75 text-[10px] font-normal tracking-tight">
                       SEO
                     </p>
                   </div>
                 </div>
-                <div className="hover:bg-zinc-700 px-[4px]capitalize w-[95px] mt-5 cursor-pointer py-[4px] bg-zinc-950 text-white text-sm rounded-[10px] justify-center items-center inline-flex">
+                <button className="hover:bg-zinc-700 px-[13px] md:px-[12px] md:py-[8px] py-[8px] capitalize mt-5 cursor-pointer  bg-zinc-950 text-white text-sm rounded-[8px] justify-center items-center flex">
                   <p className="text-center text-white text-[12px] font-medium capitalize leading-tight">
                     Let&apos;s Go
                   </p>
-                  <MdOutlineKeyboardArrowRight
-                    className="ml-2 mt-1"
-                    size="20"
-                  />
-                </div>
+                  <MdOutlineKeyboardArrowRight className="ml-2" size="20" />
+                </button>
               </div>
             </div>
           </div>
@@ -193,7 +195,7 @@ function YourCourses() {
               className="width-[50%] w-full xl:w-[50%]"
             />
             <div className="my-2">
-              <p className="text-zinc-950 text-[13px] font-medium capitalize">
+              <p className="text-zinc-950 text-[16px] lg:text-[13px] font-medium capitalize">
                 Python for Beginners - Learn
                 <span className="xl:contents hidden">...</span>
                 <span className="contents xl:hidden">
@@ -209,7 +211,9 @@ function YourCourses() {
                     width="13"
                     height="0"
                   />
-                  <p className="ml-[4px] text-[12px]">lesson : 6</p>
+                  <p className="ml-[4px] text-[14px] lg:text-[12px]">
+                    lesson : 6
+                  </p>
                 </div>
                 <div className="flex justify-center items-center">
                   <Image
@@ -218,11 +222,15 @@ function YourCourses() {
                     width="13"
                     height="0"
                   />
-                  <p className="ml-[4px] text-[12px]">Student : 198</p>
+                  <p className="ml-[4px] text-[14px] lg:text-[12px]">
+                    Student : 198
+                  </p>
                 </div>
                 <div className="flex justify-center items-center">
                   <Image alt="cup" src="icons/cup.svg" width="16" height="0" />
-                  <p className="ml-[4px] text-[12px]">Beginner</p>
+                  <p className="ml-[4px] text-[14px] lg:text-[12px]">
+                    Beginner
+                  </p>
                 </div>
               </div>
               <div>
@@ -231,7 +239,7 @@ function YourCourses() {
                   height="0"
                   width="0"
                   src="icons/point-three.svg"
-                  className="mt-4 width-full"
+                  className="mt-4 w-full"
                 />
               </div>
               <div className="flex justify-between items-center mt-4">
@@ -247,26 +255,23 @@ function YourCourses() {
                   <Image
                     alt="three"
                     src="images/small-three.svg"
-                    width="33"
+                    width="40"
                     className="rounded-[10px]"
                     height="0"
                   />
-                  <div className="text-stone-700 text-[12px] font-medium leading-1 ml-2 tracking-tight">
+                  <div className="text-stone-700 text-[15px] lg:text-[12px] font-medium leading-1 ml-2 tracking-tight">
                     <h1>Jon katner</h1>
                     <p className="text-stone-700 text-opacity-75 text-[10px] font-normal tracking-tight">
                       Design Teacher
                     </p>
                   </div>
                 </div>
-                <div className="hover:bg-zinc-700 px-[4px]capitalize w-[95px] mt-5 cursor-pointer py-[4px] bg-zinc-950 text-white text-sm rounded-[10px] justify-center items-center inline-flex">
+                <button className="hover:bg-zinc-700 px-[13px] md:px-[12px] md:py-[8px] py-[8px] capitalize mt-5 cursor-pointer  bg-zinc-950 text-white text-sm rounded-[8px] justify-center items-center flex">
                   <p className="text-center text-white text-[12px] font-medium capitalize leading-tight">
                     Let&apos;s Go
                   </p>
-                  <MdOutlineKeyboardArrowRight
-                    className="ml-2 mt-1"
-                    size="20"
-                  />
-                </div>
+                  <MdOutlineKeyboardArrowRight className="ml-2" size="20" />
+                </button>
               </div>
             </div>
           </div>
@@ -279,7 +284,7 @@ function YourCourses() {
               className="width-[50%] w-full xl:w-[50%]"
             />
             <div className="my-2">
-              <p className="text-zinc-950 text-[13px] font-medium capitalize">
+              <p className="text-zinc-950 text-[16px] lg:text-[13px] font-semibold capitalize">
                 Beginner Nikon Digital SLR Photography
               </p>
               <div className="flex justify-between mt-4 flex-wrap gap-[1px] text-zinc-950 text-opacity-75 text-[12px] font-medium capitalize">
@@ -290,7 +295,9 @@ function YourCourses() {
                     width="13"
                     height="0"
                   />
-                  <p className="ml-[4px] text-[12px]">lesson : 6</p>
+                  <p className="ml-[4px] text-[14px] lg:text-[12px]">
+                    lesson : 6
+                  </p>
                 </div>
                 <div className="flex justify-center items-center">
                   <Image
@@ -299,11 +306,15 @@ function YourCourses() {
                     width="13"
                     height="0"
                   />
-                  <p className="ml-[4px] text-[12px]">Student : 198</p>
+                  <p className="ml-[4px] text-[14px] lg:text-[12px]">
+                    Student : 198
+                  </p>
                 </div>
                 <div className="flex justify-center items-center">
                   <Image alt="cup" src="icons/cup.svg" width="16" height="0" />
-                  <p className="ml-[4px] text-[12px]">Beginner</p>
+                  <p className="ml-[4px] text-[14px] lg:text-[12px]">
+                    Beginner
+                  </p>
                 </div>
               </div>
               <div>
@@ -312,7 +323,7 @@ function YourCourses() {
                   height="0"
                   width="0"
                   src="icons/point-four.svg"
-                  className="mt-4 w-ful"
+                  className="mt-4 w-full"
                 />
               </div>
               <div className="flex justify-between items-center mt-4">
@@ -328,26 +339,23 @@ function YourCourses() {
                   <Image
                     alt="four"
                     src="images/small-four.svg"
-                    width="33"
+                    width="40"
                     height="0"
                     className="rounded-[10px]"
                   />
-                  <div className="text-stone-700 text-[12px] font-medium leading-1 ml-2 tracking-tight">
+                  <div className="text-stone-700 text-[15px] lg:text-[12px] font-medium leading-1 ml-2 tracking-tight">
                     <h1>Jon katner</h1>
                     <p className="text-stone-700 text-opacity-75 text-[10px] font-normal tracking-tight">
                       Photography
                     </p>
                   </div>
                 </div>
-                <div className=" hover:bg-zinc-700 px-[4px]capitalize w-[95px] mt-5 cursor-pointer py-[4px] bg-zinc-950 text-white text-sm rounded-[10px] justify-center items-center inline-flex">
+                <button className=" hover:bg-zinc-700 px-[13px] md:px-[12px] md:py-[8px] py-[8px] capitalize mt-5 cursor-pointer  bg-zinc-950 text-white text-sm rounded-[10px] justify-center items-center flex">
                   <p className="text-center text-white text-[12px] font-medium capitalize leading-tight">
                     Let&apos;s Go
                   </p>
-                  <MdOutlineKeyboardArrowRight
-                    className="ml-2 mt-1"
-                    size="20"
-                  />
-                </div>
+                  <MdOutlineKeyboardArrowRight className="ml-2" size="20" />
+                </button>
               </div>
             </div>
           </div>

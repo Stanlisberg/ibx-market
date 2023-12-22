@@ -48,19 +48,19 @@ function NewCourses() {
           </p>
         </div>
         <ul className="text-[12px] cursor-pointer justify-center items-center hidden md:flex">
-          <li className="mx-[2px] px-3 py-[6px] font-medium inline-flex bg-neutral-100 rounded-[10px] justify-center items-center capitalize text-zinc-950">
+          <li className="mx-[2px] px-4 py-[8px] font-medium inline-flex bg-neutral-100 rounded-[10px] justify-center items-center capitalize text-zinc-950">
             All course
           </li>
-          <li className="mx-[2px] hover:bg-neutral-100 hover:rounded-[10px] px-3 py-[6px] font-medium">
+          <li className="mx-[2px] hover:bg-neutral-100 hover:rounded-[10px] px-4 py-[8px] font-medium">
             Design
           </li>
-          <li className="mx-[2px] hover:bg-neutral-100 hover:rounded-[10px] px-3 py-[6px] font-medium">
+          <li className="mx-[2px] hover:bg-neutral-100 hover:rounded-[10px] px-4 py-[8px] font-medium">
             Development
           </li>
-          <li className="mx-[2px] hover:bg-neutral-100 hover:rounded-[10px] px-3 py-[6px] font-medium">
+          <li className="mx-[2px] hover:bg-neutral-100 hover:rounded-[10px] px-4 py-[8px] font-medium">
             Photography
           </li>
-          <li className="mx-[2px] hover:bg-neutral-100 hover:rounded-[10px] px-3 py-[6px] font-medium">
+          <li className="mx-[2px] hover:bg-neutral-100 hover:rounded-[10px] px-4 py-[8px] font-medium">
             Music
           </li>
           <li className="bg-neutral-100 rounded-[5px] px-2 py-[6px]">
@@ -73,18 +73,19 @@ function NewCourses() {
         {currentItems &&
           currentItems?.map((item: any, index: any) => (
             <div
-              className="bg-neutral-50 w-[100%] pt-[8px] pb-[20px] px-[8px] rounded-[5px] leading-[22px] 
+              className="bg-neutral-100 w-full flex flex-col pt-[8px] pb-[20px] px-[8px] rounded-[5px] leading-[22px] 
               "
               key={index}
             >
               <Image
                 alt="cover"
                 src={item.cover_image}
-                width="100"
+                width="70"
                 height="20"
-                className="w-[100%] rounded-[5px]"
+                className="w-[100%]  rounded-[5px] object-cover"
               />
 
+              
               <p className="text-zinc-950 text-[16px] font-bold capitalize">
                 Author:{" "}
                 <span className="text-[13px] font-medium">{item.author}</span>
@@ -113,7 +114,7 @@ function NewCourses() {
                 Genre:{" "}
                 <span className="text-[13px] font-medium">{item.genre[0]}</span>
               </p>
-              <div className="flex justify-between mt-4 flex-wrap gap-[1px] text-zinc-950 text-opacity-75 text-[12px] font-medium capitalize">
+              <div className=" flex justify-between mt-4 flex-wrap gap-[1px] text-zinc-950 text-opacity-75 text-[12px] font-medium capitalize">
                 <div className="flex justify-center items-center">
                   <Image
                     alt="lesson"
@@ -137,15 +138,15 @@ function NewCourses() {
                   <p className="ml-[4px] text-[12px]">Beginner</p>
                 </div>
               </div>
-              <div className="flex justify-between text-sm items-center mt-[18px] flex-wrap">
-                <div className="hover:bg-zinc-700 w-[70px] sm:w-[110px] pl-[10px] cursor-pointer py-[6px] bg-zinc-950 text-white text-[13px] rounded-[10px] justify-center items-center inline-flex">
-                  start <span className="sm:contents hidden">course</span>
+              <div className="flex justify-between text-[12px] items-center mt-[18px] flex-wrap">
+                <button className=" hover:bg-zinc-700 cursor-pointer px-[10px] md:px-[6px] md:py-[8px] py-[6px] bg-zinc-950 text-white text-[13px] rounded-[8px] justify-center items-center flex">
+                  <p>Start <span className="sm:contents hidden">Course</span></p>
                   <MdOutlineKeyboardArrowRight
-                    className="ml-0.5 mt-1"
+                    className="ml-0.5"
                     size="20"
                   />
-                </div>
-                <Image alt='four' height='0' src="icons/star-four.svg" width="30" />
+                </button>
+                <Image alt='four' height='0' src="icons/star-four.svg" width="38" />
               </div>
             </div>
           ))}
