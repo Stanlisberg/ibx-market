@@ -147,10 +147,10 @@ function NewCourses() {
                   src={item.cover_image}
                   width="70"
                   height="20"
-                  className="w-[100%]  rounded-[5px] object-cover"
+                  className="w-[100%] rounded-[5px] object-cover"
                 />
 
-                <p className="text-zinc-950 text-[16px] font-bold capitalize">
+                <p className="text-zinc-950 text-[16px] mt-3 font-bold capitalize">
                   Author:{" "}
                   <span className="text-[13px] font-medium">{item.author}</span>
                 </p>
