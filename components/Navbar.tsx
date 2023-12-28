@@ -51,7 +51,7 @@ function Navbar() {
             />
             <input
               type="text"
-              className="h-7 mr-[60px] text-[11px] font-normal outline-none pl-3 bg-[#fafafa] placeholder:text-slate-400 block sm:text-sm"
+              className="h-7 mr-[60px] text-[11px] outline-none pl-3 bg-[#fafafa] placeholder:text-slate-400 text-slate-500 font-medium block sm:text-sm"
               placeholder="Search Anything"
             />
           </div>

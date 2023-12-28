@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Slider from "./Slider";
 import Hero from "./Hero";
-import SearchCourse from "./SearchCourse";
+// import SearchCourse from "./SearchCourse";
 import NewCourses from "./NewCourses";
 import Overflow from "./Overflow";
 import Instructors from "./Instructors";
@@ -19,7 +19,7 @@ function Home() {
         {/* <Navbar /> */}
         <Slider />
         <Hero />
-        <SearchCourse />
+        {/* <SearchCourse /> */}
         <NewCourses />
       </div>
       <Overflow />
