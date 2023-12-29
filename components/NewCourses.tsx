@@ -61,7 +61,7 @@ function NewCourses() {
               alt="search"
               height="20"
               src="icons/Search.svg"
-              className="absolute right-2 top-[14px]"
+              className="absolute right-2 top-[18px]"
               width="15"
             />
             <button className="hover:scale-90 ease-in-out duration-300 ml-2 px-4 md:px-5 py-2 bg-zinc-950 rounded-[8px] text-white justify-center items-center gap-2 inline-flex cursor-pointer">
@@ -70,7 +70,7 @@ function NewCourses() {
             <input
               type="text"
               value={inputData}
-              className="h-7 md:mr-[45px] text-[13px] outline-none md:pl-[4px] bg-[#fafafa] placeholder:text-slate-400 text-slate-500 font-medium capitalize block sm:text-sm w-[110px] md:w-[500px]"
+              className="h-7 md:mr-[45px] text-[13px] outline-none md:pl-[4px] bg-[#fafafa] placeholder:text-slate-400 text-slate-500 font-medium capitalize block sm:text-sm w-[190px] md:w-[700px]"
               placeholder="Search Anything"
               onChange={(e) => setInputdata(e.target.value)}
             />
@@ -125,106 +125,98 @@ function NewCourses() {
         </ul>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4 mt-[30px] w-[100%] text-zinc-950 font-medium capitalize text-sm">
-        {currentItems &&
-          currentItems
-            .filter((value: any) => {
-              if (inputData === "") {
-                return value;
-              } else if (
-                value.author.toUpperCase().includes(inputData?.toUpperCase())
-              ) {
-                return value;
-              }
-            })
-            .map((item: any, index: any) => (
-              <div
-                className="bg-neutral-100 w-full flex flex-col pt-[8px] pb-[20px] px-[8px] rounded-[5px] leading-[22px] 
+        {currentItems
+          .filter((value: any) => {
+            if (inputData == "") {
+              return value;
+            } else if (
+              value.author.toUpperCase().includes(inputData?.toUpperCase())
+            ) {
+              return value;
+            }
+          })
+          .map((item: any, index: any) => (
+            <div
+              className="bg-neutral-100 w-full flex flex-col pt-[8px] pb-[20px] px-[8px] rounded-[5px] leading-[22px] 
               "
-                key={index}
-              >
-                <Image
-                  alt="cover"
-                  src={item.cover_image}
-                  width="70"
-                  height="20"
-                  className="w-[100%] rounded-[5px] object-cover"
-                />
+              key={index}
+            >
+              <Image
+                alt="cover"
+                src={item.cover_image}
+                width="70"
+                height="20"
+                className="w-[100%] rounded-[5px] object-cover"
+              />
 
-                <p className="text-zinc-950 text-[16px] mt-3 font-bold capitalize">
-                  Author:{" "}
-                  <span className="text-[13px] font-medium">{item.author}</span>
-                </p>
-                <p className="text-zinc-950 text-[16px]] font-bold capitalize">
-                  Title:{" "}
-                  <span className="text-[13px] font-medium">{item.title}</span>
-                </p>
-                <p className="text-zinc-950 text-[16px] font-bold capitalize">
-                  Desc:{" "}
-                  <span className="text-[13px] font-medium">
-                    {item.description}
-                  </span>
-                </p>
-                <p className="text-zinc-950 text-[16px] font-bold capitalize">
-                  Year:{" "}
-                  <span className="text-[13px] font-medium">
-                    {item.publication_year}
-                  </span>
-                </p>
-                <p className="text-zinc-950 text-[16px] font-bold capitalize">
-                  Book Id:{" "}
-                  <span className="text-[13px] font-medium"> {item.id}</span>
-                </p>
-                <p className="text-zinc-950 text-[16px] font-bold capitalize">
-                  Genre:{" "}
-                  <span className="text-[13px] font-medium">
-                    {item.genre[0]}
-                  </span>
-                </p>
-                <div className=" flex justify-between mt-4 flex-wrap gap-[1px] text-zinc-950 text-opacity-75 text-[12px] font-medium capitalize">
-                  <div className="flex justify-center items-center">
-                    <Image
-                      alt="lesson"
-                      height="20"
-                      src="icons/lesson.svg"
-                      width="13"
-                    />
-                    <p className="ml-[4px] text-[12px]">lesson : 6</p>
-                  </div>
-                  <div className="flex justify-center items-center">
-                    <Image
-                      alt="student"
-                      height="12"
-                      src="icons/student.svg"
-                      width="13"
-                    />
-                    <p className="ml-[4px] text-[12px]">Student : 168</p>
-                  </div>
-                  <div className="flex justify-center items-center">
-                    <Image
-                      alt="cup"
-                      height="20"
-                      src="icons/cup.svg"
-                      width="16"
-                    />
-                    <p className="ml-[4px] text-[12px]">Beginner</p>
-                  </div>
-                </div>
-                <div className="flex justify-between text-[12px] items-center mt-[18px] flex-wrap">
-                  <button className=" hover:bg-zinc-700 cursor-pointer px-[10px] md:px-[6px] md:py-[8px] py-[6px] bg-zinc-950 text-white text-[13px] rounded-[8px] justify-center items-center flex">
-                    <p>
-                      Start <span className="sm:contents hidden">Course</span>
-                    </p>
-                    <MdOutlineKeyboardArrowRight className="ml-0.5" size="20" />
-                  </button>
+              <p className="text-zinc-950 text-[16px] mt-3 font-bold capitalize">
+                Author:{" "}
+                <span className="text-[13px] font-medium">{item.author}</span>
+              </p>
+              <p className="text-zinc-950 text-[16px]] font-bold capitalize">
+                Title:{" "}
+                <span className="text-[13px] font-medium">{item.title}</span>
+              </p>
+              <p className="text-zinc-950 text-[16px] font-bold capitalize">
+                Desc:{" "}
+                <span className="text-[13px] font-medium">
+                  {item.description}
+                </span>
+              </p>
+              <p className="text-zinc-950 text-[16px] font-bold capitalize">
+                Year:{" "}
+                <span className="text-[13px] font-medium">
+                  {item.publication_year}
+                </span>
+              </p>
+              <p className="text-zinc-950 text-[16px] font-bold capitalize">
+                Book Id:{" "}
+                <span className="text-[13px] font-medium"> {item.id}</span>
+              </p>
+              <p className="text-zinc-950 text-[16px] font-bold capitalize">
+                Genre:{" "}
+                <span className="text-[13px] font-medium">{item.genre[0]}</span>
+              </p>
+              <div className=" flex justify-between mt-4 flex-wrap gap-[1px] text-zinc-950 text-opacity-75 text-[12px] font-medium capitalize">
+                <div className="flex justify-center items-center">
                   <Image
-                    alt="four"
-                    height="0"
-                    src="icons/star-four.svg"
-                    width="38"
+                    alt="lesson"
+                    height="20"
+                    src="icons/lesson.svg"
+                    width="13"
                   />
+                  <p className="ml-[4px] text-[12px]">lesson : 6</p>
+                </div>
+                <div className="flex justify-center items-center">
+                  <Image
+                    alt="student"
+                    height="12"
+                    src="icons/student.svg"
+                    width="13"
+                  />
+                  <p className="ml-[4px] text-[12px]">Student : 168</p>
+                </div>
+                <div className="flex justify-center items-center">
+                  <Image alt="cup" height="20" src="icons/cup.svg" width="16" />
+                  <p className="ml-[4px] text-[12px]">Beginner</p>
                 </div>
               </div>
-            ))}
+              <div className="flex justify-between text-[12px] items-center mt-[18px] flex-wrap">
+                <button className=" hover:bg-zinc-700 cursor-pointer px-[10px] md:px-[6px] md:py-[8px] py-[6px] bg-zinc-950 text-white text-[13px] rounded-[8px] justify-center items-center flex">
+                  <p>
+                    Start <span className="sm:contents hidden">Course</span>
+                  </p>
+                  <MdOutlineKeyboardArrowRight className="ml-0.5" size="20" />
+                </button>
+                <Image
+                  alt="four"
+                  height="0"
+                  src="icons/star-four.svg"
+                  width="38"
+                />
+              </div>
+            </div>
+          ))}
       </div>
       <ReactPaginate
         breakLabel="..."
@@ -246,13 +238,6 @@ function NewCourses() {
 }
 
 export default NewCourses;
-
-
-
-
-
-
-
 
 
 

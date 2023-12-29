@@ -114,7 +114,9 @@ body {
   color: #9E5CF2;
 }
 
-
+.swiper-pagination-bullet {
+  color: red;
+}
 @media (width > 1035px) {
   .hero {
     flex-direction: row;

@@ -158,7 +158,7 @@ function Instructors() {
               alt="instructor-one"
               height="20"
               src="images/instructor-one.svg"
-              width="150"
+              width="350"
               className="w-full"
             />
             <div className="justify-between items-center flex mb-[-12px] mt-5 text-stone-700">

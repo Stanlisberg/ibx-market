@@ -4,8 +4,8 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import "swiper/css";
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 import { GoDotFill } from "react-icons/go";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { IoIosArrowBack } from "react-icons/io";
@@ -189,7 +189,7 @@ function TopCourses() {
                   className="w-[100%] rounded-[5px]"
                 />
                 <p className="text-zinc-950 text-[16px] lg:text-[13px] font-medium capitalize mt-2">
-                  acoustic guiter and elextric guitar. Start course..
+                  acoustic guiter and elextric guitar - Essential..
                 </p>
                 <div className="flex justify-between mt-4 flex-wrap gap-[1px] text-zinc-950 text-opacity-75 text-[12px] font-medium capitalize">
                   <div className="flex justify-center items-center">
