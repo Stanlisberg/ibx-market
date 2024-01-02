@@ -82,39 +82,44 @@ body {
  .page-num {
   padding: 4px 10px;
   cursor: pointer;
-  border: 1px solid #9E5CF2;
+  border: 1px solid black;
   border-radius: 3px;
-  color:#9E5CF2
+  color: black;
 }
 
 .page-num:hover {
-  background-color:#9E5CF2;
+  background-color: black;
   color: #fff;
 }
 
 .page {
   padding: 4px 10px;
   border-radius: 3px;
-  border: 1px solid #9E5CF2;
-  color: #9E5CF2
+  border: 1px solid black;
+  color: black;
 }
 
 .page:hover {
-  background-color:#9E5CF2;
+  background-color: black;
   border-radius: 3px;
   color: #fff
 }
 
 .page-active {
-  background-color: #9E5CF2;
+  background-color: black;
   color: #fff;
 }
 
 .break {
-  color: #9E5CF2;
+  color: black
+  /* color: #9E5CF2; */
 }
 
 .swiper-pagination-bullet {
+  color: red;
+}
+
+.slidePrev {
   color: red;
 }
 @media (width > 1035px) {

@@ -1,4 +1,5 @@
 "use client";
+
 import React from "react";
 import Image from "next/image";
 import { useEffect, useState } from "react";
@@ -12,7 +13,7 @@ import ReactPaginate from "react-paginate";
 function NewCourses() {
   const { bookData } = useSelector((state: RootState) => state.book);
   const dispatch: AppDispatch = useDispatch();
-  const [inputData, setInputdata] = useState<string>();
+  const [inputData, setInputdata] = useState<string>("");
   const data = bookData;
 
   //-----Pagination States------
@@ -70,18 +71,18 @@ function NewCourses() {
             <input
               type="text"
               value={inputData}
-              className="h-7 md:mr-[45px] text-[13px] outline-none md:pl-[4px] bg-[#fafafa] placeholder:text-slate-400 text-slate-500 font-medium capitalize block sm:text-sm w-[190px] md:w-[700px]"
+              className="h-7 md:mr-[45px] text-[11px] outline-none md:pl-[4px] bg-[#fafafa] placeholder:text-slate-400 text-slate-500 font-medium block sm:[12px]-sm w-[190px] md:w-[700px]"
               placeholder="Search Anything"
               onChange={(e) => setInputdata(e.target.value)}
             />
           </div>
-          <div className="text-stone-700 text-opacity-75 text-sm font-medium capitalize ml-[10px] mt-[20px] md:mt-[0px]">
+          <div className="text-stone-700 text-opacity-75 text-[13px] font-medium capitalize ml-[10px] mt-[20px] md:mt-[0px]">
             Or view the following courses...
           </div>
           <Image
             alt="arrow"
             src="icons/spring-arrow-green.svg"
-            width="90"
+            width="70"
             height="20"
             className="md:mb-[70px] md:mt-0 mt-[10px]"
           />
@@ -127,26 +128,24 @@ function NewCourses() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4 mt-[30px] w-[100%] text-zinc-950 font-medium capitalize text-sm">
         {currentItems
           .filter((value: any) => {
-            if (inputData == "") {
+            if (inputData === "") {
               return value;
-            } else if (
-              value.author.toUpperCase().includes(inputData?.toUpperCase())
-            ) {
+            } else if (value?.author.includes(inputData)) {
               return value;
             }
           })
           .map((item: any, index: any) => (
             <div
-              className="bg-neutral-100 w-full flex flex-col pt-[8px] pb-[20px] px-[8px] rounded-[5px] leading-[22px] 
+              className="bg-neutral-100 pt-[8px] pb-[20px] px-[8px] rounded-[5px] leading-[22px] 
               "
               key={index}
             >
               <Image
                 alt="cover"
                 src={item.cover_image}
-                width="70"
-                height="20"
-                className="w-[100%] rounded-[5px] object-cover"
+                width="200"
+                height="100"
+                className="rounded-[5px] object-cover w-full h-[150px]"
               />
 
               <p className="text-zinc-950 text-[16px] mt-3 font-bold capitalize">
@@ -157,21 +156,17 @@ function NewCourses() {
                 Title:{" "}
                 <span className="text-[13px] font-medium">{item.title}</span>
               </p>
-              <p className="text-zinc-950 text-[16px] font-bold capitalize">
+              {/* <p className="text-zinc-950 text-[16px] font-bold capitalize">
                 Desc:{" "}
                 <span className="text-[13px] font-medium">
                   {item.description}
                 </span>
-              </p>
+              </p> */}
               <p className="text-zinc-950 text-[16px] font-bold capitalize">
                 Year:{" "}
                 <span className="text-[13px] font-medium">
                   {item.publication_year}
                 </span>
-              </p>
-              <p className="text-zinc-950 text-[16px] font-bold capitalize">
-                Book Id:{" "}
-                <span className="text-[13px] font-medium"> {item.id}</span>
               </p>
               <p className="text-zinc-950 text-[16px] font-bold capitalize">
                 Genre:{" "}
@@ -202,8 +197,8 @@ function NewCourses() {
                 </div>
               </div>
               <div className="flex justify-between text-[12px] items-center mt-[18px] flex-wrap">
-                <button className=" hover:bg-zinc-700 cursor-pointer px-[10px] md:px-[6px] md:py-[8px] py-[6px] bg-zinc-950 text-white text-[13px] rounded-[8px] justify-center items-center flex">
-                  <p>
+                <button className=" hover:bg-zinc-700 cursor-pointer px-[10px] md:px-[12px] md:py-[6px] py-[6px] bg-zinc-950 text-white text-[13px] rounded-[8px] justify-center items-center text-center flex">
+                  <p className="text-center">
                     Start <span className="sm:contents hidden">Course</span>
                   </p>
                   <MdOutlineKeyboardArrowRight className="ml-0.5" size="20" />
@@ -238,6 +233,11 @@ function NewCourses() {
 }
 
 export default NewCourses;
+
+
+
+
+
 
 
 

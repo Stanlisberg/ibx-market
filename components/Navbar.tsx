@@ -12,7 +12,7 @@ function Navbar() {
   const [navIcon, setNavIcon] = useState(true);
   return (
     <>
-      <nav className="flex justify-between items-center border-b border-zinc-100 py-5 px-[8px] sm:px-[10px] md:px-[10px] lg:px-[10px] xl:px-[80px]">
+      <nav className="flex justify-between items-center border-b border-zinc-200 py-[18px] px-[8px] sm:px-[10px] md:px-[10px] lg:px-[10px] xl:px-[80px]">
         <div className="flex justify-between items-center">
           <div className="flex">
             <Image alt="logo" height="20" src="icons/logo.svg" width="28" />
@@ -20,13 +20,13 @@ function Navbar() {
               ACADEMY
             </h1>
           </div>
-          <ul className="text-sm font-medium hidden xl:contents text-zinc-950 text-opacity-50 cursor-pointer">
+          <ul className="relative text-[13px] font-medium hidden xl:contents text-zinc-950 text-opacity-50 cursor-pointer">
             <li className="ml-10 px-3 py-[6px] hover:bg-neutral-100 hover:rounded-[10px]">
               Categories
             </li>
             <MdOutlineKeyboardArrowDown
               size="17"
-              className="mt-[3px]"
+              className="absolute top-[32px] left-[357px]"
               color="grey"
             />
             <li className="px-3 py-[6px] hover:bg-neutral-100 hover:rounded-[10px] mx-[1px]">
@@ -41,30 +41,30 @@ function Navbar() {
           </ul>
         </div>
         <div className="flex items-center">
-          <div className="w-[200px] hidden md:flex relative mr-[40px] bg-neutral-50 rounded-[6px] py-[3px] text-zinc-950 text-opacity-25 text-[13px]">
+          <div className="w-[200px] hidden md:flex relative mr-[40px] bg-neutral-50 rounded-[6px] py-[8px] text-zinc-950 text-opacity-25 text-[13px]">
             <Image
               alt="search"
               height="20"
               src="icons/Search.svg"
-              className="absolute right-2 top-[10px]"
+              className="absolute right-2 top-[15px]"
               width="15"
             />
             <input
               type="text"
-              className="h-7 mr-[60px] text-[11px] outline-none pl-3 bg-[#fafafa] placeholder:text-slate-400 text-slate-500 font-medium block sm:text-sm"
+              className="h-7 mr-[60px] text-[11px] outline-none pl-3 bg-[#fafafa] placeholder:text-[11px] placeholder:text-slate-400 text-slate-500 font-medium block sm:text-[12px]"
               placeholder="Search Anything"
             />
           </div>
-          <div className="flex text-sm items-center mr-8 xl:mr-8 md:border-l h-8 w-[120px] md:w-[230px] lg:w-[180px] border-zinc-200 pl-[40px] py-[0px]">
+          <div className="flex text-sm items-center mr-8 xl:mr-8 md:border-l h-10 w-[120px] md:w-[230px] lg:w-[180px] border-zinc-200 pl-[40px] py-2">
             <Image
               alt="dash"
               height="20"
               src="icons/dashed.svg"
-              width="33"
+              width="40"
               className="rounded-md"
             />
             <span className="text-sm ml-2 flex md:grid items-center">
-              <p className="text-zinc-950 text-[14px] leading-3 font-medium">
+              <p className="text-zinc-950 text-[13px] leading-3 font-medium">
                 Behzad <span className="hidden md:contents">Paschei</span>
               </p>
               <MdOutlineKeyboardArrowDown
@@ -77,8 +77,8 @@ function Navbar() {
               </p>
             </span>
           </div>
-          <div className="bell py-2 px-2 hidden md:grid bg-purple-500 bg-opacity-5 rounded-xl">
-            <Image alt="ball" src="icons/bell.svg" height="20" width="15" />
+          <div className="bell py-3 px-3 hidden md:grid bg-purple-500 bg-opacity-5 rounded-xl">
+            <Image alt="ball" src="icons/bell.svg" height="20" width="16" />
           </div>
         </div>
         <div className="md:hidden mt-1 block cursor-pointer z-[10]">

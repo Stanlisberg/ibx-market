@@ -31,8 +31,8 @@ function SearchCourse() {
           </button>
           <input
             type="text"
-            className="h-7 md:mr-[45px] text-[11px] font-normal outline-none md:pl-[4px] bg-[#fafafa] placeholder:text-slate-400 block sm:text-sm w-[110px] md:w-[500px]"
-            placeholder="Search Anything"
+            className="h-7 md:mr-[45px] text-[11px] font-normal outline-none md:pl-[4px] bg-[#fafafa] placeholder:text-[11px] placeholder:text-slate-400 block sm:text-[19px] w-[110px] md:w-[500px]"
+            placeholder="Search Anythin"
           />
         </div>
         <div className="text-stone-700 text-opacity-75 text-sm font-medium capitalize ml-[10px] mt-[20px] md:mt-[0px]">

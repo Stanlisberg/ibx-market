@@ -47,7 +47,7 @@ function Footer() {
               alt="cert image"
               src="images/certificate.svg"
               className="mt-3"
-              width="350"
+              width="310"
               height="20"
             />
           </div>
@@ -59,7 +59,7 @@ function Footer() {
               categories
             </p>
           </div>
-          <ul className="mt-3 ml-3 text-[14px] capitalize text-zinc-950 text-opacity-75">
+          <ul className="mt-3 ml-3 text-[13.5px] capitalize text-zinc-950 text-opacity-75">
             <li>
               <a href="#">designing</a>
             </li>
@@ -105,7 +105,7 @@ function Footer() {
               quick access
             </p>
           </div>
-          <ul className="mt-3 ml-3 text-[14px] capitalize text-zinc-950 text-opacity-75">
+          <ul className="mt-3 ml-3 text-[13.5px] capitalize text-zinc-950 text-opacity-75">
             <li>
               <a href="#">what we offer</a>
             </li>
@@ -152,34 +152,42 @@ function Footer() {
             </p>
           </div>
           <div className="mt-3 grid gap-2 capitalize text-stone-700 text-opacity-75">
-            <div className="lg:w-[90%] w-full p-3 pl-3 bg-neutral-100 rounded-xl flex-col justify-start items-start inline-flex">
-              <h1>ellsmartx</h1>
-              <p>
+            <div className="w-full p-[10px] pl-3 bg-neutral-100 rounded-xl flex-col justify-start items-start inline-flex">
+              <h1 className="text-stone-700 text-[13px] font-medium capitalize">
+                ellsmartx
+              </h1>
+              <p className="text-[10px]">
                 how nice does this look 😍 I feel it should be
                 <span className="hidden lg:contents">...</span>{" "}
                 <span className="lg:hidden">delicious</span>
               </p>
             </div>
-            <div className="lg:w-[90%] w-full p-3 pl-3 bg-neutral-100 rounded-xl flex-col justify-start items-start inline-flex">
-              <h1>ellsmartx</h1>
-              <p>
+            <div className="w-full p-[10px] pl-3 bg-neutral-100 rounded-xl flex-col justify-start items-start inline-flex">
+              <h1 className="text-stone-700 text-[13px] font-medium capitalize">
+                cassia
+              </h1>
+              <p className="text-[10px]">
                 Take a rest i&apos;ll cheeer you up again
                 <span className="hidden lg:contents">...</span>{" "}
                 <span className="lg:hidden">in two next game</span>
               </p>
             </div>
-            <div className="lg:w-[90%] w-full p-3 pl-3 bg-neutral-100 rounded-xl flex-col justify-start items-start  inline-flex">
-              <h1>ellsmartx</h1>
-              <p>
+            <div className="w-full p-[10px] pl-3 bg-neutral-100 rounded-xl flex-col justify-start items-start  inline-flex">
+              <h1 className="text-stone-700  text-[13px] font-medium capitalize">
+                amanda
+              </h1>
+              <p className="text-[10px]">
                 you were stunning today, jan! 💗 great match.
                 <span className="hidden lg:contents">...</span>{" "}
                 <span className="lg:hidden">👍🏽👍🏽</span>
               </p>
             </div>
-            <div className="lg:w-[90%] w-full p-3 pl-3 bg-neutral-100 rounded-xl flex-col justify-start items-start inline-flex">
-              <h1>ellsmartx</h1>
-              <p>
-                It was a great match today Janzi! You
+            <div className="w-full p-[10px] pl-3 bg-neutral-100 rounded-xl flex-col justify-start items-start inline-flex">
+              <h1 className="text-stone-700 text-[13px] font-medium capitalize">
+                dennis simonassi
+              </h1>
+              <p className="text-[10px]">
+                It was a great match today Janzi!
                 <span className="hidden lg:contents">...</span>{" "}
                 <span className="lg:hidden">great😉 De</span>
               </p>
@@ -187,7 +195,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="text-stone-700 text-opacity-75 flex flex-col md:justify-between md:flex-row bg-neutral-100 px-3 py-4 mt-9 capitalize text-[13px]">
+      <div className="text-stone-700 text-opacity-75 flex flex-col md:justify-between md:flex-row bg-neutral-100 px-3 py-4 mt-9 capitalize text-[12px]">
         <div>Privacy Policy | terms & conditions</div>
         <div>all copyright 2022 &#x00A9; reserved </div>
       </div>
