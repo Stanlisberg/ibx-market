@@ -28,7 +28,7 @@ function NewCourses() {
     setItemOffset(newOffset);
   };
 
-  //----Pagination effect------
+  //----Pagination useEffect------
   useEffect(() => {
     const endOffset = itemOffset + itemsPerPage;
     setCurrentItems(data?.slice(itemOffset, endOffset));
@@ -156,12 +156,6 @@ function NewCourses() {
                 Title:{" "}
                 <span className="text-[13px] font-medium">{item.title}</span>
               </p>
-              {/* <p className="text-zinc-950 text-[16px] font-bold capitalize">
-                Desc:{" "}
-                <span className="text-[13px] font-medium">
-                  {item.description}
-                </span>
-              </p> */}
               <p className="text-zinc-950 text-[16px] font-bold capitalize">
                 Year:{" "}
                 <span className="text-[13px] font-medium">

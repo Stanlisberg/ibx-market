@@ -7,13 +7,13 @@ function Instructors() {
     <>
       <div className="hidden xl:flex justify-between items-center mt-[120px] mx-[8px] sm:mx-[10px] md:mx-[10px] lg:mx-[10px] xl:mr-0 xl:ml-[80px]">
         <div className="w-[320px] h-[170px]">
-          {/* <Image
+          <Image
             alt="best"
             src="icons/best-instructor.svg"
             width="210"
             height="20"
             className="cursor-text"
-          /> */}
+          />
           <p className="mt-6 capitalize text-black text-opacity-75 text-[13px] font-normal leading-[20px] tracking-tight">
             At the academy we strive to bring together the best professors for
             the best courses
@@ -45,75 +45,75 @@ function Instructors() {
             height="20"
             width="900"
           />
-          <div className=" px-[6px] pt-[4px] pb-[42px] bg-neutral-100 border border-zinc-50 rounded-xl absolute z-10 top-[10%] right-[60%] translate-x-[-40%] translate-y-[-55%]">
+          <div className=" px-[6px] pt-[4px] pb-[28px] bg-neutral-100 border border-zinc-50 rounded-xl absolute z-10 top-[10%] right-[60%] translate-x-[-40%] translate-y-[-55%]">
             <Image
               alt="instructor"
               src="images/instructor-one.svg"
               height="20"
               width="150"
             />
-            <div className="justify-between items-center flex mb-[-12px]">
-              <p className="text-[13px] font-medium">Jon kantner</p>
+            <div className="justify-between items-center flex mb-[-12px] mt-4">
+              <p className="text-[12px] font-medium">Jon kantner</p>
               <p className="text-[11px]">Designer</p>
             </div>
           </div>
-          <div className="px-[6px] pt-[4px] pb-[42px] bg-neutral-100 border border-zinc-50 rounded-xl absolute z-10 top-[10%] right-[30%] translate-x-[-75%] translate-y-[-55%]">
+          <div className="px-[6px] pt-[4px] pb-[28px] bg-neutral-100 border border-zinc-50 rounded-xl absolute z-10 top-[10%] right-[30%] translate-x-[-75%] translate-y-[-55%]">
             <Image
               alt="instructor-two"
               src="images/instructor-two.svg"
               height="20"
               width="150"
             />
-            <div className="justify-between items-center flex mb-[-12px]">
-              <p className="text-[13px] font-medium">Debbie LaChusa</p>
+            <div className="justify-between items-center flex mb-[-12px] mt-4">
+              <p className="text-[12px] font-medium">Debbie LaChusa</p>
               <p className="text-[11px]">Seo</p>
             </div>
           </div>
-          <div className=" px-[6px] pt-[4px] pb-[42px] bg-neutral-100 border border-zinc-50 rounded-xl absolute z-10 top-[10%] right-[1%] translate-x-[-104%] translate-y-[-55%]">
+          <div className=" px-[6px] pt-[4px] pb-[28px] bg-neutral-100 border border-zinc-50 rounded-xl absolute z-10 top-[10%] right-[1%] translate-x-[-104%] translate-y-[-55%]">
             <Image
               alt="instructor-three"
               src="images/instructor-three.svg"
               height="20"
               width="150"
             />
-            <div className="justify-between items-center flex mb-[-12px]">
-              <p className="text-[13px] font-medium">Edwin Diaz</p>
+            <div className="justify-between items-center flex mb-[-12px] mt-4">
+              <p className="text-[12px] font-medium">Edwin Diaz</p>
               <p className="text-[11px]">Composer</p>
             </div>
           </div>
-          <div className=" px-[6px] pt-[4px] pb-[42px] bg-neutral-100 border border-zinc-50 rounded-xl absolute z-10 top-[90%] right-[55%] translate-x-[-65%] translate-y-[-40%]">
+          <div className=" px-[6px] pt-[4px] pb-[28px] bg-neutral-100 border border-zinc-50 rounded-xl absolute z-10 top-[90%] right-[55%] translate-x-[-65%] translate-y-[-40%]">
             <Image
               alt="instructor-four"
               height="20"
               src="images/instructor-four.svg"
               width="150"
             />
-            <div className="justify-between items-center flex mb-[-12px]">
-              <p className="text-[13px] font-medium">Cassie Evans</p>
+            <div className="justify-between items-center flex mb-[-12px] mt-4">
+              <p className="text-[12px] font-medium">Cassie Evans</p>
               <p className="text-[11px]">Photographer</p>
             </div>
           </div>
-          <div className=" px-[6px] pt-[4px] pb-[42px] bg-neutral-100 border border-zinc-50 rounded-xl  absolute z-10 top-[90%] right-[30%] translate-x-[-75%] translate-y-[-40%]">
+          <div className=" px-[6px] pt-[4px] pb-[28px] bg-neutral-100 border border-zinc-50 rounded-xl  absolute z-10 top-[90%] right-[30%] translate-x-[-75%] translate-y-[-40%]">
             <Image
               alt="instructor-five"
               height="20"
               src="images/instructor-five.svg"
               width="150"
             />
-            <div className="justify-between items-center flex mb-[-12px]">
-              <p className="text-[13px] font-medium">Erich Andreas</p>
+            <div className="justify-between items-center flex mb-[-12px] mt-4">
+              <p className="text-[12px] font-medium">Erich Andreas</p>
               <p className="text-[11px]">Programmer</p>
             </div>
           </div>
-          <div className=" px-[6px] pt-[4px] pb-[42px] bg-neutral-100 border border-zinc-50 rounded-xl absolute z-10 top-[90%] right-[7%] translate-x-[-75%] translate-y-[-40%]">
+          <div className=" px-[6px] pt-[4px] pb-[28px] bg-neutral-100 border border-zinc-50 rounded-xl absolute z-10 top-[90%] right-[7%] translate-x-[-75%] translate-y-[-40%]">
             <Image
               alt="instructor-six"
               height="20"
               src="images/instructor-six.svg"
               width="150"
             />
-            <div className="justify-between items-center flex mb-[-12px]">
-              <p className="text-[13px] font-medium">Jason Allen</p>
+            <div className="justify-between items-center flex mb-[-12px] mt-4">
+              <p className="text-[12px] font-medium">Jason Allen</p>
               <p className="text-[11px]">Accounting</p>
             </div>
           </div>
