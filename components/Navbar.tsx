@@ -55,13 +55,13 @@ function Navbar() {
               placeholder="Search Anything"
             />
           </div>
-          <div className="flex text-sm items-center mr-8 xl:mr-8 md:border-l h-10 w-[120px] md:w-[230px] lg:w-[180px] border-zinc-200 pl-[40px] py-2">
+          <div className="flex text-sm items-center mr-[40px] xl:mr-8 md:border-l h-10 w-[120px] md:w-[230px] lg:w-[180px] border-zinc-200 pl-[40px] py-2">
             <Image
               alt="dash"
               height="20"
               src="icons/dashed.svg"
-              width="40"
-              className="rounded-md"
+              width="1"
+              className="rounded-md w-[32px] md:w-10"
             />
             <span className="text-sm ml-2 flex md:grid items-center">
               <p className="text-zinc-950 text-[13px] leading-3 font-medium">
@@ -69,7 +69,7 @@ function Navbar() {
               </p>
               <MdOutlineKeyboardArrowDown
                 size="17"
-                className="md:hidden mt-[3px] ml-[5px]"
+                className="md:hidden mt-[3px]"
                 color="black"
               />
               <p className="hidden md:grid text-zinc-950 text-opacity-50 text-[10px] font-medium">
