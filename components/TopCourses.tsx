@@ -1,4 +1,5 @@
 "use client";
+
 import React from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -54,7 +55,7 @@ function TopCourses() {
             onSwiper={(swiper) => console.log(swiper)}
           >
             <SwiperSlide>
-              <div className="bg-neutral-100 w-[100%] pt-[8px] pb-[20px] px-[8px] rounded-[5px] ">
+              <div className="bg-neutral-100 w-[100%] pt-[8px] pb-[20px] px-[8px] rounded-[10px] ">
                 <Image
                   alt="first"
                   src="images/first.svg"

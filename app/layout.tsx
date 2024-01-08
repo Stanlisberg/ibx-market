@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import Providers from "@/redux/Provider";
-import { Open_Sans, Roboto_Mono } from "next/font/google";
+import { Open_Sans, Roboto_Mono, Rubik } from "next/font/google";
 import "./globals.css";
 
-// const inter = Inter({ subsets: ['latin'] })
+// const rubik = Rubik({ subsets: ["latin"] });
 
 // const openSans = Open_Sans({
 //   subsets: ['latin'],
@@ -29,8 +29,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      {/* <body className={inter.className}>{children}</body> */}
-      {/* <body className={`${openSans.variable} ${robotoMono.variable} font-sans`}>{children}</body> */}
+      {/* <body className={rubik.className}><Providers>{children}</Providers></body> */}
+      {/* <body className={`${openSans.variable} ${robotoMono.variable} font-sans`}><Providers>{children}</Providers></body> */}
       <body className={`${robotoMono.variable} font-sans`}><Providers>{children}</Providers></body>
     </html>
   );

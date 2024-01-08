@@ -195,7 +195,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="text-stone-700 text-opacity-75 flex flex-col md:justify-between md:flex-row bg-neutral-100 px-3 py-4 mt-9 capitalize text-[12px]">
+      <div className="text-stone-700 text-opacity-75 rounded-[10px] flex flex-col md:justify-between md:flex-row bg-neutral-100 px-3 py-4 mt-9 capitalize text-[12px]">
         <div>Privacy Policy | terms & conditions</div>
         <div>all copyright 2022 &#x00A9; reserved </div>
       </div>
